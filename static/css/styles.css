@@ -125,7 +125,8 @@ footer>.wrapper>.grid-item>ul>li {
 
 @media screen and (max-width: 767px) {
     footer>.wrapper {
-        margin: 2em;
+        grid-gap: 0;
+        margin: 1em;
         grid-column: col 1 / span 5;
     }
 }
