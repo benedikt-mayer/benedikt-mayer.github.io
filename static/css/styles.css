@@ -22,6 +22,11 @@ body {
         "footer";
 }
 
+/* email obfuscation */
+.crypted-mail:after {
+    content: attr(data-name) "@"attr(data-domain) "."attr(data-tld);
+}
+
 /* link color */
 a:link,
 a:visited {
@@ -70,16 +75,18 @@ main {
 }
 
 .lower-content {
-    grid-column: col 2 / span 2;
+    grid-column: col 2 / span 3;
     grid-row: row 2;
     font-size: 1.2em;
 }
 
 @media screen and (max-width: 767px) {
-    main{
+    main {
         grid-gap: 0;
     }
-    .lower-content, .heading {
+
+    .lower-content,
+    .heading {
         grid-column: col 1 / span 5;
         grid-gap: 0;
         margin: 2em;
@@ -121,6 +128,10 @@ footer>.wrapper>.grid-item>ul>li {
     display: inline;
     padding-right: 0.3em;
     padding-left: 0.3em;
+}
+
+footer>.wrapper>.grid-item>ul>li>a {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 767px) {
