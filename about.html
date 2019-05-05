@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-    <meta name="google" content="notranslate" />
     <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- index ROBOTS follow -->
-    <meta name="robots" content="index, follow" />
     <!-- Site Desciption -->
     
     <meta name="description" content="benedikt mayer | portfolio">
     
-
+    <!-- keywords -->
     <meta name="keywords" content="Benedikt Mayer, benediktmayer, data science, human computer interaction, haskell, software development">
     <!-- Favicon -->
     <!-- <link rel="shortcut icon" href="https://benedikt-mayer.github.io/static/img/ico.png" type="image/x-icon" /> -->
@@ -24,10 +22,13 @@
     <!-- Property Metas -->
     
     <meta property="og:title" content="benedikt mayer | portfolio" />
-    <meta property="og:site_name" content="benedikt mayer | portfolio" />
     
+    <meta property="og:site_name" content="benedikt mayer | portfolio" />
+    <meta property="og:image" content="{{ page.url | replace:'index.html','static/img/portrait.JPG' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
     <!-- Canonical -->
-    <!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"> -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <!-- StyleSheet -->
     <link rel="stylesheet" href="https://benedikt-mayer.github.io/static/css/styles.css">
     <!-- Fonts -->
@@ -37,8 +38,10 @@
 <body>
     <!-- Navigation -->
 <nav class="navbar">
-    <a class="logo" href="https://benedikt-mayer.github.io">benedikt mayer</a>
-    <span class="navbar-toggle" id="js-navbar-toggle">
+    <span aria-label="home">
+        <a class="logo" href="https://benedikt-mayer.github.io">benedikt mayer</a>
+    </span>
+    <span aria-label="mobile menu" class="navbar-toggle" id="js-navbar-toggle">
         <i class="fas fa-bars"></i>
     </span>
     <ul class="main-nav" id="js-menu">
@@ -49,7 +52,7 @@
             <a class="nav-links" href="https://benedikt-mayer.github.io/contact.html">contact</a>
         </li>
         <li>
-            <a class="nav-links" href="https://www.github.com/benedikt-mayer" target="_blank">
+            <a aria-label="link to my Github profile" class="nav-links" href="https://www.github.com/benedikt-mayer" target="_blank">
                 <i class="fab fa-github"></i> benedikt-mayer
             </a>
         </li>
@@ -76,12 +79,6 @@
 <p> </p>
     </div>
 </main>
-
-    <!-- <a href="#" class="crypted-mail"
-   data-name="benedikt_mayer"
-   data-domain="outlook"
-   data-tld="de"
-   onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"></a> -->
     
     <!-- Footer -->
 <footer>
@@ -90,14 +87,14 @@
             <ul>
                 
                 <li>
-                    <a href="https://github.com/benedikt-mayer" target="_blank">
-                        <i class="fab fa-2x fa-github"></i>
+                    <a aria-label="link to my Github profile" href="https://github.com/benedikt-mayer" target="_blank">
+                        <i aria-hidden="true" class="fab fa-2x fa-github"></i>
                     </a>
                 </li>
                  
                 <li>
-                    <a href="https://linkedin.com/in/benedikt-mayer-7ab235132" target="_blank">
-                        <i class="fab fa-2x fa-linkedin"></i>
+                    <a aria-label="link to my LinkedIn profile" href="https://linkedin.com/in/benedikt-mayer-7ab235132" target="_blank">
+                        <i aria-hidden="true" class="fab fa-2x fa-linkedin"></i>
                     </a>
                 </li>
                 
