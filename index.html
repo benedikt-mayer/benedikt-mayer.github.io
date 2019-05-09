@@ -14,7 +14,7 @@
     <!-- keywords -->
     <meta name="keywords" content="Benedikt Mayer, benediktmayer, data science, human computer interaction, haskell, software development">
     <!-- Favicon -->
-    <!-- <link rel="shortcut icon" href="https://benedikt-mayer.github.io/static/img/ico.png" type="image/x-icon" /> -->
+    <!-- <link rel="shortcut icon" href="http://localhost:35730/static/img/ico.png" type="image/x-icon" /> -->
     <!-- Blog Title -->
     
     <title>benedikt mayer | portfolio</title>
@@ -24,13 +24,13 @@
     <meta property="og:title" content="benedikt mayer | portfolio" />
     
     <meta property="og:site_name" content="benedikt mayer | portfolio" />
-    <meta property="og:image" content="https://benedikt-mayer.github.iostatic/img/portrait.JPG">
-    <meta property="og:url" content="https://benedikt-mayer.github.io">
+    <meta property="og:image" content="http://localhost:35730static/img/portrait.JPG">
+    <meta property="og:url" content="http://localhost:35730">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://benedikt-mayer.github.io">
+    <link rel="canonical" href="http://localhost:35730">
     <!-- StyleSheet -->
-    <link rel="stylesheet" href="https://benedikt-mayer.github.io/static/css/styles.css">
+    <link rel="stylesheet" href="http://localhost:35730/static/css/styles.css">
     <!-- Fonts -->
     <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet" type="text/css">
 </head>
@@ -39,17 +39,36 @@
     <!-- Navigation -->
 <nav class="navbar">
     <span aria-label="home">
-        <a class="logo" href="https://benedikt-mayer.github.io">benedikt mayer</a>
+        <a class="logo" href="http://localhost:35730">benedikt mayer</a>
     </span>
     <span aria-label="mobile menu" class="navbar-toggle" id="js-navbar-toggle">
         <i class="fas fa-bars"></i>
     </span>
     <ul class="main-nav" id="js-menu">
         <li>
-            <a class="nav-links" href="https://benedikt-mayer.github.io/about.html">about</a>
+            <a class="nav-links" href="http://localhost:35730/about.html">about</a>
         </li>
         <li>
-            <a class="nav-links" href="https://benedikt-mayer.github.io/contact.html">contact</a>
+            <a class="nav-links" href="http://localhost:35730/contact.html">contact</a>
+        </li>
+        <li class="dropdown">
+            <span class="nav-links">projects <i class="fas fa-caret-down"></i></span>
+            <!-- <a class="nav-links" href="#">projects</a> -->
+            <ul class="dropdown-content">
+                
+                <li>
+                    <a class="nav-links" href="http://localhost:35730/infovis.html">infovis</a>
+                </li>
+                
+                <li>
+                    <a class="nav-links" href="http://localhost:35730/radio.html">radio</a>
+                </li>
+                
+                <li>
+                    <a class="nav-links" href="http://localhost:35730/thesis.html">thesis</a>
+                </li>
+                
+            </ul>
         </li>
         <li>
             <a aria-label="link to my Github profile" class="nav-links" href="https://www.github.com/benedikt-mayer" target="_blank" rel="noreferrer">
@@ -62,7 +81,11 @@
     <!-- Post Header -->
 <main>
     <div class="box heading">
-        <h1>Hi!</h1>
+        <h1>
+             
+                Hi! 
+            
+        </h1>
     </div>
     <div class="box content">
         <h2 id="im-benedikt-a-computer-science-student-based-in-munich.">I’m Benedikt, a computer science student based in Munich.</h2>
@@ -75,12 +98,13 @@
 <!-- Currently I'm focussed on machine learning, functional software development and mixed reality.
 
 I've worked for LMU Munich, Intel, Siemens and Bundeswehr University as a software developer and research assistant. -->
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
-        
+<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. --> 
+         
             <div class="gallery">
     
-        <div class="gallery-item">
-            <img src="https://benedikt-mayer.github.io/static/img/infovis_square.png" />
+    <div class="gallery-item">
+        <a href="http://localhost:35730/infovis.html">
+            <img alt="A scatter plot of sentiments of newspaper articles." src="http://localhost:35730/static/img/infovis_square.png" />
             <div>
                 <h4>
                     Newspaper sentiments
@@ -89,10 +113,12 @@ I've worked for LMU Munich, Intel, Siemens and Bundeswehr University as a softwa
                     In a project on information visualization, ... consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
             </div>
-        </div>
+        </a>
+    </div>
     
-        <div class="gallery-item">
-            <img src="https://benedikt-mayer.github.io/static/img/radio_square.jpg" />
+    <div class="gallery-item">
+        <a href="http://localhost:35730/radio.html">
+            <img alt="A wooden retro radio with a red slider in front of a e-ink display." src="http://localhost:35730/static/img/radio_square.jpg" />
             <div>
                 <h4>
                     NFC timeline Radio
@@ -101,10 +127,12 @@ I've worked for LMU Munich, Intel, Siemens and Bundeswehr University as a softwa
                     In a project on media systems, ... consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
             </div>
-        </div>
+        </a>
+    </div>
     
-        <div class="gallery-item">
-            <img src="https://benedikt-mayer.github.io/static/img/thesis_square.png" />
+    <div class="gallery-item">
+        <a href="http://localhost:35730/thesis.html">
+            <img alt="A VR scene with two hands manipulating a distant cube." src="http://localhost:35730/static/img/thesis_square.png" />
             <div>
                 <h4>
                     Interaction in VR
@@ -113,9 +141,10 @@ I've worked for LMU Munich, Intel, Siemens and Bundeswehr University as a softwa
                     In my bachelor thesis, ... consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloremagna aliqua.
                 </p>
             </div>
-        </div>
+        </a>
+    </div>
     
-</div>
+</div> 
         
     </div>
 
@@ -157,7 +186,7 @@ I've worked for LMU Munich, Intel, Siemens and Bundeswehr University as a softwa
     </div>
 </footer>
 
-<script src="https://benedikt-mayer.github.io/static/js/scripts.js"></script>
+<script src="http://localhost:35730/static/js/scripts.js"></script>
 </body>
 
 </html>
