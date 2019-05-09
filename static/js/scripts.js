@@ -1,8 +1,16 @@
 var mainNav = document.getElementById("js-menu")
 var navBarToggle = document.getElementById("js-navbar-toggle")
+var projectNav = document.getElementById("js-projects-menu")
+var projectNavBarToggle = document.getElementById("js-navbar-projects-toggle")
 
 navBarToggle.addEventListener("click", function () {
     mainNav.classList.toggle("active")
+    navBarToggle.children[0].classList.toggle("fa-bars")
+    navBarToggle.children[0].classList.toggle("fa-times")
+})
+
+projectNavBarToggle.addEventListener("click", function () {
+    projectNav.classList.toggle("active")
 })
 
 
