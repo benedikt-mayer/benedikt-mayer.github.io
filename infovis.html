@@ -31,6 +31,9 @@
     <link rel="canonical" href="https://benedikt-mayer.github.io">
     <!-- StyleSheet -->
     <link rel="stylesheet" href="https://benedikt-mayer.github.io/static/css/styles.css">
+    
+        <link rel="stylesheet" href="https://benedikt-mayer.github.io/static/css/visstyles.css">
+    
     <!-- Fonts -->
     <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet" type="text/css">
 </head>
@@ -53,23 +56,19 @@
         </li>
         <li class="dropdown">
             <span class="nav-links" id="js-navbar-projects-toggle">projects</span>
-            <!-- <a class="nav-links" href="#">projects</a> -->
             <ul class="dropdown-content" id="js-projects-menu">
                 
                 <li>
                     <a class="nav-links" href="https://benedikt-mayer.github.io/infovis.html">infovis</a>
                 </li>
-                <!-- <hr> -->
                 
                 <li>
                     <a class="nav-links" href="https://benedikt-mayer.github.io/radio.html">radio</a>
                 </li>
-                <!-- <hr> -->
                 
                 <li>
                     <a class="nav-links" href="https://benedikt-mayer.github.io/thesis.html">thesis</a>
                 </li>
-                <!-- <hr> -->
                 
             </ul>
         </li>
@@ -87,15 +86,40 @@
     <div class="box heading">
         <h1>
             
-                Newspaper sentiments
+                Newspaper Sentiments
             
         </h1>
     </div>
     <div class="box content">
-        <p><img src="../static/img/infovis_square.png" alt="project image" style="height:14em" /><br />
-</p>
-<p> </p>
-<p>In a project on information visualization, … consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+        <p>This is a project conducted during the <a href="http://www.medien.ifi.lmu.de/lehre/ws1819/iv/index.xhtml.en">information visualization lecture</a> at LMU Munich.</p>
+<p>Using text classification by sentiment analysis, we compared articles from different newspapers.</p>
+<p>To get an accurate sentiment analysis, we sent articles texts to the <a href="https://precire.com/demos/core_functionality/index.html">Precire AI API</a>.</p>
+<p> </p> 
+        
+         
+            <div>
+    <h2>Sentiment Similarities by Newspaper</h2>
+    <p>This force directed graph displays similarities between different newspapers by calculating the distance between average sentiments of each newspaper.</p>
+    <br>
+    <div class="button-group" id="forcebuttons">
+        <input type="radio" name="Force" value="CDU" checked="true">CDU
+        <input type="radio" name="Force" value="AfD">AfD
+        <input type="radio" name="Force" value="SPD">SPD
+    </div>
+    <svg class="infovis-element" id="force-directed"></svg>
+</div>
+<br>
+<div>
+    <h2>How do Newspapers report?</h2>
+    <p>With this scatterplot, we try to find interesting correlations between newspapers and sentiments.</p>
+    <br>
+    <div class="button-group" id="scatterplot">
+        <input type="radio" name="Scatter" value="CDU" checked="true">CDU
+        <input type="radio" name="Scatter" value="AfD">AfD
+        <input type="radio" name="Scatter" value="SPD">SPD
+    </div>
+    <div class="button-group infovis-element" id="vis-container"></div>
+</div> 
         
     </div>
 
@@ -138,6 +162,14 @@
 </footer>
 
 <script src="https://benedikt-mayer.github.io/static/js/scripts.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://benedikt-mayer.github.io/static/js/data.js"></script>
+    <script src="https://benedikt-mayer.github.io/static/js/scatterplot.js"></script>
+    <script src="https://benedikt-mayer.github.io/static/js/force_new.js"></script>
+
+
 </body>
 
 </html>
