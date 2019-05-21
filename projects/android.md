@@ -1,5 +1,5 @@
 ::: right
-![project image](../static/img/android.png)\
+![project image](../static/img/android.jpg)\
 _The explore and find stages._
 :::
 
@@ -22,7 +22,7 @@ The frame for project this was a [lab course on location aware apps](http://www.
 &nbsp;
 
 ::: left
-![project image](../static/img/android_stack.png)\
+![project image](../static/img/android_stack.jpg)\
 :::
 
 ## Tech Stack
@@ -44,7 +44,7 @@ Using server-side filtering, the client only receives the data it needs and can 
 &nbsp;
 
 ::: right
-![project image](../static/img/android_intro.png)\
+![project image](../static/img/android_intro.jpg)\
 _The intro: explore, find, filter_
 :::
 
