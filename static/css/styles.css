@@ -265,7 +265,8 @@ footer>.wrapper>.grid-item>ul>li>a {
     }
 
     .nav-links {
-        padding-right: 14em;
+        display:inline-block;
+        width: 100%;
     }
 
     /* dropdown */
