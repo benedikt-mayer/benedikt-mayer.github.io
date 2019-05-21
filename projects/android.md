@@ -45,7 +45,7 @@ Using server-side filtering, the client only receives the data it needs and can 
 
 ::: right
 ![project image](../static/img/android_intro.jpg)\
-_The intro: explore, find, filter_
+_The intro: explore, find, filter._
 :::
 
 ## App Workflow

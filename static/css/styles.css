@@ -264,6 +264,10 @@ footer>.wrapper>.grid-item>ul>li>a {
         padding: 1em 0;
     }
 
+    .nav-links {
+        padding-right: 14em;
+    }
+
     /* dropdown */
     .dropdown {
         display: none;
