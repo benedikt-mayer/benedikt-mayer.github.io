@@ -71,6 +71,24 @@ main {
     margin: 1em 0;
 }
 
+/* main - project pages */
+
+.right{
+    float:right;
+}
+
+.left{
+    float: left;
+}
+
+.left, .right{
+    margin: 0 1em;
+}
+
+p>img{
+    height: 14em;
+}
+
 /* main - gallery */
 .gallery {
     width: inherit;
