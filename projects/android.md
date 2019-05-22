@@ -1,11 +1,9 @@
 ::: article
 ::: paragraph
-
 ::: text
 ## Which lectures and free rooms are around me?
 
 &nbsp;
-
 
 With this question in mind, we built a unique Android app, focussing on an easy and accessible way to get location aware information.  
 
@@ -22,14 +20,20 @@ The frame for project this was a [lab course on location aware apps](http://www.
 :::
 ::: image
 ![Two screens: image it shows a map with buildings marked by pins, right it shows a building plan with rooms marked by pins.](../static/img/android.jpg)\
-_The explore and find stages._
+
+::: caption
+The explore and find stages.
+:::
 :::
 :::
 
 ::: paragraph
 ::: image
 ![The icons for our tech stack: Spring, REST, mongoDB, Jaunt, Kotlin.](../static/img/android_stack.jpg)\
-_Our tech stack._
+
+::: caption
+Our tech stack.
+:::
 :::
 
 ::: text
@@ -73,7 +77,10 @@ Here, they can choose the time by adjusting a slider and receive more informatio
 :::
 ::: image
 ![Three intro screens describing the explore, find, filter model.](../static/img/android_intro.jpg)\
-_The intro: explore, find, filter._
+
+::: caption
+The intro: explore, find, filter.
+:::
 :::
 :::
 :::

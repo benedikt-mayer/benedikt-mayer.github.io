@@ -71,36 +71,6 @@ main {
     margin: 1em 0;
 }
 
-/* main - project pages */
-
-.image, .text{
-    grid-column: auto;
-}
-
-.paragraph{
-    grid-row: auto;
-    display: grid;
-    grid-template-columns: repeat(2, [col] auto);
-    grid-gap: 6em;
-    border-bottom: solid lightgrey 0.1em;
-    padding-bottom: 2em;
-}
-
-.article {
-    display: grid;
-    grid-template-rows: repeat(3, [row] auto);
-    grid-gap: 4em;
-    margin-top: 1em;
-}
-
-.article>:last-child{
-    border-bottom: none;
-}
-
-.image>p>img {
-    height: 20em;
-}
-
 /* main - gallery */
 .gallery {
     width: inherit;
@@ -132,6 +102,48 @@ main {
     margin: 0.5em;
 }
 
+/* main - project pages */
+.image,
+.text {
+    grid-column: auto;
+}
+
+.paragraph {
+    grid-row: auto;
+    display: grid;
+    grid-template-columns: repeat(2, [col] auto);
+    grid-gap: 6em;
+    border-bottom: solid lightgrey 0.1em;
+    padding-bottom: 2em;
+}
+
+.article {
+    display: grid;
+    grid-template-rows: repeat(3, [row] auto);
+    grid-gap: 4em;
+    margin-top: 1em;
+}
+
+.article>:last-child {
+    border-bottom: none;
+}
+
+.image>p>img {
+    height: 20em;
+}
+
+.caption {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image {
+    position: relative;
+}
+
 /* main - platform specific */
 @media screen and (max-width: 767px) {
     main {
@@ -153,7 +165,7 @@ main {
     }
 
     /* project pages */
-    .paragraph{
+    .paragraph {
         grid-template-rows: repeat(2, [col] auto);
         grid-template-columns: unset;
         grid-gap: 1em;
@@ -169,20 +181,40 @@ main {
         grid-row: 1;
     }
 
-    .image, .text{
+    .image,
+    .text {
         grid-column: unset;
     }
 
     .article {
+        margin-top: unset;
         grid-gap: 2em;
+    }
+
+    .caption.visible{
+        opacity: 1;
+    }
+
+    .image>p.hover{
+        opacity: 0.3;
     }
 }
 
 @media screen and (min-width: 768px) {
+
     /* gallery */
     .gallery {
         grid-gap: 5em;
         grid-template-columns: repeat(3, [col] 1fr)
+    }
+
+    /* project pages */
+    .image:hover img {
+        opacity: 0.3;
+    }
+
+    .image:hover .caption {
+        opacity: 1;
     }
 }
 
@@ -302,7 +334,7 @@ footer>.wrapper>.grid-item>ul>li>a {
     }
 
     .nav-links {
-        display:inline-block;
+        display: inline-block;
         width: 100%;
     }
 
