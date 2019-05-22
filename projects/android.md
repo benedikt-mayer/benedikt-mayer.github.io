@@ -1,11 +1,11 @@
-::: right
-![Two screens: left it shows a map with buildings marked by pins, right it shows a building plan with rooms marked by pins.](../static/img/android.jpg)\
-_The explore and find stages._
-:::
+::: article
+::: paragraph
 
+::: text
 ## Which lectures and free rooms are around me?
 
 &nbsp;
+
 
 With this question in mind, we built a unique Android app, focussing on an easy and accessible way to get location aware information.  
 
@@ -19,12 +19,20 @@ To get this information, we crawled the [course catalog](https://lsf.verwaltung.
 
 The frame for project this was a [lab course on location aware apps](http://www.mobile.ifi.lmu.de/lehrveranstaltungen/msp-ws1819/) with the [chair of mobile and distributed systems](http://www.mobile.ifi.lmu.de/).
 
-&nbsp;
-
-::: left
-![The icons for our tech stack: Spring, REST, mongoDB, Jaunt, Kotlin.](../static/img/android_stack.jpg)\
+:::
+::: image
+![Two screens: image it shows a map with buildings marked by pins, right it shows a building plan with rooms marked by pins.](../static/img/android.jpg)\
+_The explore and find stages._
+:::
 :::
 
+::: paragraph
+::: image
+![The icons for our tech stack: Spring, REST, mongoDB, Jaunt, Kotlin.](../static/img/android_stack.jpg)\
+_Our tech stack._
+:::
+
+::: text
 ## Tech Stack
 
 &nbsp;
@@ -39,15 +47,14 @@ All of our code can be found on Github and is available under the MIT License: T
 
 &nbsp;
 
-Using server-side filtering, the client only receives the data it needs and can then efficiently and locally apply their content filtering, e.g. what type of courses and faculties they are interested in. Internally, the app caches all room plans after receiving them once to save time when revisiting a building.
+Using server-side filtering, the client only receives the data it needs and can then efficiently and locally apply their filtering, e.g. what type of courses and faculties they are interested in. Internally, the app caches all room plans to save time when revisiting a building.
 
-&nbsp;
-
-::: right
-![Three intro screens describing the explore, find, filter model.](../static/img/android_intro.jpg)\
-_The intro: explore, find, filter._
+:::
 :::
 
+::: paragraph
+
+::: text
 ## App Workflow
 
 &nbsp;
@@ -62,3 +69,11 @@ After selecting one of the buildings, the user finds a floor plan on which they 
 &nbsp;
 
 Here, they can choose the time by adjusting a slider and receive more information about a specific room by selecting the marker on the room plan.
+
+:::
+::: image
+![Three intro screens describing the explore, find, filter model.](../static/img/android_intro.jpg)\
+_The intro: explore, find, filter._
+:::
+:::
+:::

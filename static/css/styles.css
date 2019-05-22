@@ -73,20 +73,32 @@ main {
 
 /* main - project pages */
 
-.right{
-    float:right;
+.image, .text{
+    grid-column: auto;
 }
 
-.left{
-    float: left;
+.paragraph{
+    grid-row: auto;
+    display: grid;
+    grid-template-columns: repeat(2, [col] auto);
+    grid-gap: 6em;
+    border-bottom: solid lightgrey 0.1em;
+    padding-bottom: 2em;
 }
 
-.left, .right{
-    margin: 0 1em;
+.article {
+    display: grid;
+    grid-template-rows: repeat(3, [row] auto);
+    grid-gap: 4em;
+    margin-top: 1em;
 }
 
-p>img{
-    height: 14em;
+.article>:last-child{
+    border-bottom: none;
+}
+
+.image>p>img {
+    height: 20em;
 }
 
 /* main - gallery */
@@ -138,6 +150,31 @@ p>img{
     .gallery {
         grid-gap: 2em;
         grid-template-rows: repeat(3, [row] 1fr)
+    }
+
+    /* project pages */
+    .paragraph{
+        grid-template-rows: repeat(2, [col] auto);
+        grid-template-columns: unset;
+        grid-gap: 1em;
+    }
+
+    .image {
+        grid-row: 2;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text {
+        grid-row: 1;
+    }
+
+    .image, .text{
+        grid-column: unset;
+    }
+
+    .article {
+        grid-gap: 2em;
     }
 }
 
