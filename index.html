@@ -30,7 +30,10 @@
     <!-- Canonical -->
     <link rel="canonical" href="https://benedikt-mayer.github.io/index.html">
     <!-- StyleSheet -->
-    <link rel="stylesheet" href="https://benedikt-mayer.github.io/static/css/styles.css">
+    <link rel="stylesheet" href="https://benedikt-mayer.github.io/static/css/navigation.css">
+    <link rel="stylesheet" href="https://benedikt-mayer.github.io/static/css/general.css">
+    <link rel="stylesheet" href="https://benedikt-mayer.github.io/static/css/main.css">
+    <link rel="stylesheet" href="https://benedikt-mayer.github.io/static/css/footer.css">
 </head>
 
 <body>
@@ -83,8 +86,8 @@
 <main>
     <div class="box heading">
         <h1>
-             
-                Hi! 
+            
+            Hi!
             
         </h1>
     </div>
@@ -99,9 +102,9 @@
 <!-- Currently I'm focussed on machine learning, functional software development and mixed reality.
 
 I've worked for LMU Munich, Intel, Siemens and Bundeswehr University as a software developer and research assistant. -->
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. --> 
-         
-            <div class="gallery">
+<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
+        
+        <div class="gallery">
     
     <div class="gallery-item">
         <a href="https://benedikt-mayer.github.io/android.html">
@@ -125,7 +128,7 @@ I've worked for LMU Munich, Intel, Siemens and Bundeswehr University as a softwa
                     NFC Timeline Radio
                 </h4>
                 <p>
-                    In a project on media systems, ... consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    In a project on media systems, we built a modern nfc radio with retro looks.
                 </p>
             </div>
         </a>
@@ -145,8 +148,21 @@ I've worked for LMU Munich, Intel, Siemens and Bundeswehr University as a softwa
         </a>
     </div>
     
-</div> 
+</div>
         
+        <div id="imageModal" class="modal" onclick="this.style.display='none'">
+    <div class="modal-content">
+        <img id="imageModalImage">
+    </div>
+    <div class="modal-caption">
+        <p id="imageModalCaption"></p>
+    </div>
+    <div class="close">
+        <span>
+            <i class="fas fa-times"></i>
+        </span>
+    </div>
+</div>
     </div>
 
 </main>

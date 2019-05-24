@@ -30,7 +30,10 @@
     <!-- Canonical -->
     <link rel="canonical" href="https://benedikt-mayer.github.io/thesis.html">
     <!-- StyleSheet -->
-    <link rel="stylesheet" href="https://benedikt-mayer.github.io/static/css/styles.css">
+    <link rel="stylesheet" href="https://benedikt-mayer.github.io/static/css/navigation.css">
+    <link rel="stylesheet" href="https://benedikt-mayer.github.io/static/css/general.css">
+    <link rel="stylesheet" href="https://benedikt-mayer.github.io/static/css/main.css">
+    <link rel="stylesheet" href="https://benedikt-mayer.github.io/static/css/footer.css">
 </head>
 
 <body>
@@ -84,7 +87,7 @@
     <div class="box heading">
         <h1>
             
-                Interaction in VR
+            Interaction in VR
             
         </h1>
     </div>
@@ -92,8 +95,21 @@
         <p><img src="../static/img/thesis_square.jpg" alt="project image" style="height:14em" /><br />
 </p>
 <p> </p>
-<p>In my bachelor thesis, … consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloremagna aliqua.</p> 
+<p>In my bachelor thesis, … consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloremagna aliqua.</p>
         
+        <div id="imageModal" class="modal" onclick="this.style.display='none'">
+    <div class="modal-content">
+        <img id="imageModalImage">
+    </div>
+    <div class="modal-caption">
+        <p id="imageModalCaption"></p>
+    </div>
+    <div class="close">
+        <span>
+            <i class="fas fa-times"></i>
+        </span>
+    </div>
+</div>
     </div>
 
 </main>
