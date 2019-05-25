@@ -49,10 +49,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra velit qui
 ::: 
 
 ::: image
-![Our laser-cut NFC Radio.](../static/img/radio_construction.jpg) \
+![A preview of the lasercut wooden frontal and top part of our radio.](../static/img/radio_construction.jpg) \
 
 ::: caption
-Our laser-cut NFC Radio.
+Laser cutting to cunstruct our wooden radio.
 ::: 
 :::
 :::
