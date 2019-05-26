@@ -1,7 +1,7 @@
 ::: article
 ::: paragraph
 ::: text
-## Which lectures and free rooms are around me?
+## Which Lectures and Free Rooms are around me?
 
 &nbsp;
 

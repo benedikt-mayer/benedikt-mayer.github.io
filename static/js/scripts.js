@@ -22,7 +22,7 @@ imageContainers.forEach(imageContainer => {
         // on desktop, show image modal on click
         else{
             document.getElementById("imageModal").style.display = "grid"
-            document.getElementById("imageModalImage").src = imageContainer.getElementsByTagName("p")[0].getElementsByTagName("img")[0].src
+            document.getElementById("imageModalImage").src = imageContainer.getElementsByTagName("p")[0].getElementsByTagName("img")[0].src.replace(".jpg", "_large.jpg")
             document.getElementById("imageModalCaption").innerHTML = imageContainer.getElementsByClassName("caption")[0].getElementsByTagName("p")[0].innerHTML
         }
     })

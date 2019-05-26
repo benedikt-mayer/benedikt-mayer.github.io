@@ -1,7 +1,7 @@
 ::: article
 ::: paragraph
 ::: text
-## New features, classic design?
+## New Features, Classic Design?
 
 &nbsp;
 
@@ -37,7 +37,7 @@ German radio receiver "Carmen" from Nordmende, image from [flickr](https://www.f
 :::
 
 ::: text
-## Classic Radio elements
+## Classic Radio Elements
 
 &nbsp;
 
@@ -89,7 +89,7 @@ Laser cutting to cunstruct our wooden radio.
 :::
 
 ::: text
-## The Finished Product in action
+## The Finished Product in Action
 
 &nbsp;
 
