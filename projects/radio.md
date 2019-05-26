@@ -5,10 +5,16 @@
 
 &nbsp;
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra velit quis dolor ultricies tincidunt. Vestibulum at venenatis nisl, non eleifend libero. Curabitur sodales et ipsum at venenatis. Cras dui ipsum, eleifend eu malesuada id, tempor at lectus. Vivamus dictum, mi et condimentum dictum, velit purus dignissim leo, nec scelerisque nisi eros viverra mauris. Curabitur vulputate urna nibh. Maecenas vel tortor ac est lobortis euismod scelerisque sit amet libero. Etiam vel pulvinar velit. Vestibulum porta, nunc et dictum accumsan, nibh libero vestibulum lorem, et ultricies arcu metus scelerisque odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed.
+In a lab project at the [department of human-centered ubiquitous media](https://www.en.um.informatik.uni-muenchen.de/index.html) we were challenged to create a modern music player which references traditional radio design.  
 
+&nbsp; 
 
-$project_description$
+Our prototype has two e-paper screens, one showing the currently playing song and one showing a selection of songs of a particular genre.  
+
+&nbsp; 
+
+The song selection is analog to the radio station selection on FM radios: Just move the red bar over the desired song on the timeline and enjoy.
+To choose a genre, just place a new nfc tag on top of the device.
 ::: 
 
 ::: image
@@ -23,10 +29,10 @@ Our laser-cut NFC Radio.
 ::: paragraph
 
 ::: image
-![German radio receiver "Stern-Radio Rochlitz Beethoven" from https://commons.wikimedia.org/wiki/File:Stern-Radio_Rochlitz_Beethoven.JPG](../static/img/Beethoven.jpg) \
+![German radio receiver "Carmen" from Nordmende, image from flickr https://www.flickr.com/photos/lanier67/7162468903](../static/img/radio_nordmende.jpg) \
 
 ::: caption
-German radio receiver "Stern-Radio Rochlitz Beethoven", image from [wikimedia](https://commons.wikimedia.org/wiki/File:Stern-Radio_Rochlitz_Beethoven.JPG).
+German radio receiver "Carmen" from Nordmende, image from [flickr](https://www.flickr.com/photos/lanier67/7162468903).
 :::
 :::
 
@@ -35,7 +41,17 @@ German radio receiver "Stern-Radio Rochlitz Beethoven", image from [wikimedia](h
 
 &nbsp;
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra velit quis dolor ultricies tincidunt. Vestibulum at venenatis nisl, non eleifend libero. Curabitur sodales et ipsum at venenatis. Cras dui ipsum, eleifend eu malesuada id, tempor at lectus. Vivamus dictum, mi et condimentum dictum, velit purus dignissim leo, nec scelerisque nisi eros viverra mauris. Curabitur vulputate urna nibh. Maecenas vel tortor ac est lobortis euismod scelerisque sit amet libero. Etiam vel pulvinar velit. Vestibulum porta, nunc et dictum accumsan, nibh libero vestibulum lorem, et ultricies arcu metus scelerisque odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed.
+Devices from the likes of Braun, Grundig, Nordmende and Telefunken have inspired our project to create a modern radio device with the majestic looks of the past.
+
+&nbsp;
+
+Thus, our radio is made out of wood, with warm-colored miniature light bulbs and very haptic knobs to turn.  
+
+&nbsp;
+
+With e-ink displays, the device never distracts by being overly bright or unnatural-looking.
+
+
 :::
 :::
 
@@ -45,7 +61,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra velit qui
 
 &nbsp;
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra velit quis dolor ultricies tincidunt. Vestibulum at venenatis nisl, non eleifend libero. Curabitur sodales et ipsum at venenatis. Cras dui ipsum, eleifend eu malesuada id, tempor at lectus. Vivamus dictum, mi et condimentum dictum, velit purus dignissim leo, nec scelerisque nisi eros viverra mauris. Curabitur vulputate urna nibh. Maecenas vel tortor ac est lobortis euismod scelerisque sit amet libero. Etiam vel pulvinar velit. Vestibulum porta, nunc et dictum accumsan, nibh libero vestibulum lorem, et ultricies arcu metus scelerisque odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed.
+Our final prototype contains two Raspberry Pis as well as an Arduino to drive the two e-ink displays as well as all the analog potentiometers and motors.  
+
+&nbsp;
+
+We laser-cut our case out of MDF wood and engraved labels for "Volume", "Song" and the NFC-reader on top.
+
+&nbsp;
+
+On the bottom of our larger screen, we've mounted a motorized fader, known from mixer consoles, to be able to move the physical red bar across the screen.  
 ::: 
 
 ::: image
@@ -60,7 +84,7 @@ Laser cutting to cunstruct our wooden radio.
 ::: paragraph
 ::: image
 ::: video
-<iframe src="https://www.youtube.com/embed/Fbv3RyXO0YM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/Fbv3RyXO0YM" title="YouTube video of the NFC radio." frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 :::
 
@@ -69,7 +93,15 @@ Laser cutting to cunstruct our wooden radio.
 
 &nbsp;
 
-You can find the project on [github](https://github.com/benedikt-mayer/nfcradio) and the instructions on [intructables](https://www.instructables.com/id/NFC-Timeline-Radio/).
+You can find the code on [github](https://github.com/benedikt-mayer/nfcradio) along with installation instructions. 
+
+&nbsp;
+
+We've also written a detailed instruction guide featured on [intructables](https://www.instructables.com/id/NFC-Timeline-Radio/).  
+
+&nbsp;
+
+It contains all the laser cutting files, part recommendations, fritzing sketches as well as a plethora of images of the construction processes.
 :::
 :::
 

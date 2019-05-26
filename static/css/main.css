@@ -43,10 +43,6 @@ main {
     align-items: center;
 }
 
-.gallery-item:hover {
-    box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.2);
-}
-
 .gallery-item>a {
     text-decoration: none;
 }
@@ -235,11 +231,13 @@ main {
     }
 
     /* project pages */
-    .image:hover img{
-        opacity: 0.5;
+    .image:hover img, .gallery-item:hover{
+        opacity: 0.6;
+        transition: .3s ease;
     }
 
     .image:hover .caption {
         opacity: 1;
+        transition: .3s ease;
     }
 }

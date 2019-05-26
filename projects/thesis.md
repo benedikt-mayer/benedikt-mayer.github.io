@@ -5,15 +5,22 @@
 
 &nbsp;
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra velit quis dolor ultricies tincidunt. Vestibulum at venenatis nisl, non eleifend libero. Curabitur sodales et ipsum at venenatis. Cras dui ipsum, eleifend eu malesuada id, tempor at lectus. Vivamus dictum, mi et condimentum dictum, velit purus dignissim leo, nec scelerisque nisi eros viverra mauris. Curabitur vulputate urna nibh. Maecenas vel tortor ac est lobortis euismod scelerisque sit amet libero. Etiam vel pulvinar velit. Vestibulum porta, nunc et dictum accumsan, nibh libero vestibulum lorem, et ultricies arcu metus scelerisque odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed.
+In my bachelor thesis we proposed a new interaction technique integrating manual interaction and eye-tracking into VR, called gaze + pinch.  
 
+&nbsp; 
+
+Non-VR 3D interaction techniques have had many recent approaches using manual and gaze-based input which we propose could improve interaction in VR as well.  
+
+&nbsp; 
+
+Manual input appears particularly promising to solve problems of intuitiveness and immersion but lacks the ability to easily interact with remote objects, which eye-tracking tries to deal with.
 ::: 
 
 ::: image
-![Basic 3D interaction with eye gaze + hand pinching to manipulate cubes in a VR setting.](../static/img/$project_image$) \
+![Basic 3D interaction with gaze + pinch to manipulate cubes in a VR setting.](../static/img/$project_image$) \
 
 ::: caption
-Basic 3D interaction with eye gaze + hand pinching.
+Basic 3D interaction with gaze + pinch.
 ::: 
 :::
 :::
@@ -29,11 +36,16 @@ HTC Vive headset and controllers. Image from [ETC-USC on flickr](https://www.fli
 :::
 
 ::: text
-## Immersive and intuitive Interaction
+## Immersive and Intuitive Interaction
 
 &nbsp;
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra velit quis dolor ultricies tincidunt. Vestibulum at venenatis nisl, non eleifend libero. Curabitur sodales et ipsum at venenatis. Cras dui ipsum, eleifend eu malesuada id, tempor at lectus. Vivamus dictum, mi et condimentum dictum, velit purus dignissim leo, nec scelerisque nisi eros viverra mauris. Curabitur vulputate urna nibh. Maecenas vel tortor ac est lobortis euismod scelerisque sit amet libero. Etiam vel pulvinar velit. Vestibulum porta, nunc et dictum accumsan, nibh libero vestibulum lorem, et ultricies arcu metus scelerisque odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed.
+The current state of the art in VR interaction is controllers like the ones of the HTC Vive shown here.
+But introducing foreign objects into a VR scene can break immersion, the most important property of any VR application.  
+
+&nbsp; 
+
+This is especially true for applications where the user wouldn't expect to hold something in their hands, like a social or climbing application.
 :::
 :::
 
@@ -43,7 +55,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra velit qui
 
 &nbsp;
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra velit quis dolor ultricies tincidunt. Vestibulum at venenatis nisl, non eleifend libero. Curabitur sodales et ipsum at venenatis. Cras dui ipsum, eleifend eu malesuada id, tempor at lectus. Vivamus dictum, mi et condimentum dictum, velit purus dignissim leo, nec scelerisque nisi eros viverra mauris. Curabitur vulputate urna nibh. Maecenas vel tortor ac est lobortis euismod scelerisque sit amet libero. Etiam vel pulvinar velit. Vestibulum porta, nunc et dictum accumsan, nibh libero vestibulum lorem, et ultricies arcu metus scelerisque odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed.
+Thus, we introduced a new concept combining the advantages of gesture interaction with those of eye tracking.  
+
+&nbsp; 
+
+One example application we built is a  living room scene, in which the user can use gaze + pinch to arrange their furniture to their liking.  
+
+&nbsp; 
+
+In this scene, we demonstrate how one can easily use eye gaze for selection (indicated by the grey circle) in combination with gesture interaction for positioning.
 ::: 
 
 ::: image
@@ -58,16 +78,20 @@ In a 3D living room scene, the user can rearrange their furniture by using gaze 
 ::: paragraph
 ::: image
 ::: video
-<iframe src="https://www.youtube.com/embed/NzLrZSF8aDM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/NzLrZSF8aDM" title="YouTube video of the Gaze+Pinch technique." frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 :::
 
 ::: text
-## Gaze+Pinch in Action
+## Gaze + Pinch in Action
 
 &nbsp;
 
-The paper was published to [ACM Digital Library](https://dl.acm.org/citation.cfm?id=3132180) for [the 5th ACM Symposium on Spatial User Interaction (SUI 2017)](http://www.sui2017.org/). You can find more publications of mine on [Google Scholar](https://scholar.google.de/citations?user=ZHmZq24AAAAJ&hl=en). There is also a [full talk about the Gaze+Pinch paper](https://www.youtube.com/watch?v=YdKT42tZdQE) given by my colleague Ken Pfeuffer at SUI 2017.
+The accommodating paper co-written with [Ken Pfeuffer](https://kenpfeuffer.com/) was published to the [ACM Digital Library](https://dl.acm.org/citation.cfm?id=3132180) for [the 5th ACM Symposium on Spatial User Interaction (SUI 2017)](http://www.sui2017.org/).  
+
+&nbsp; 
+
+You can find more publications of mine on [Google Scholar](https://scholar.google.de/citations?user=ZHmZq24AAAAJ&hl=en). There is also a [full talk about the Gaze+Pinch paper](https://www.youtube.com/watch?v=YdKT42tZdQE) given by my colleague Ken Pfeuffer at SUI 2017.
 :::
 :::
 
