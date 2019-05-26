@@ -7,6 +7,14 @@ main {
     grid-template-rows: repeat(2, [row] auto);
 }
 
+.non-bold{
+    border-top: solid lightgrey 0.1em;
+}
+
+.non-bold>h3{
+    font-weight: normal;
+}
+
 .heading {
     grid-column: col 2 / span 3;
     grid-row: row;
@@ -54,7 +62,11 @@ main {
 .gallery-item>a>div {
     display: flex;
     flex-flow: row wrap;
-    margin: 0.5em;
+    margin: 0.5em 0.5em 1em 0.5em;
+}
+
+.gallery-item>a>div>h4 {
+    margin-bottom: 0.5em;
 }
 
 /* main - project pages */

@@ -45,13 +45,11 @@ Devices from the likes of Braun, Grundig, Nordmende and Telefunken have inspired
 
 &nbsp;
 
-Thus, our radio is made out of wood, with warm-colored miniature light bulbs and very haptic knobs to turn.  
+Thus, our radio is made out of wood, with warm-colored miniature light bulbs and very haptic dials to turn.  
 
 &nbsp;
 
 With e-ink displays, the device never distracts by being overly bright or unnatural-looking.
-
-
 :::
 :::
 
@@ -61,15 +59,15 @@ With e-ink displays, the device never distracts by being overly bright or unnatu
 
 &nbsp;
 
-Our final prototype contains two Raspberry Pis as well as an Arduino to drive the two e-ink displays as well as all the analog potentiometers and motors.  
+Our final prototype contains two Raspberry Pis as well as an Arduino to drive the two e-ink displays, an NFC reader as well as all the analog potentiometers and motors.  
 
 &nbsp;
 
-We laser-cut our case out of MDF wood and engraved labels for "Volume", "Song" and the NFC-reader on top.
+We laser-cut our case out of MDF wood and engraved labels for "Volume", "Song", "Play" and the NFC-reader on top.
 
 &nbsp;
 
-On the bottom of our larger screen, we've mounted a motorized fader, known from mixer consoles, to be able to move the physical red bar across the screen.  
+On the bottom of our larger screen we've mounted a motorized fader, usually known from mixer consoles, to move the physical red bar across the screen.  
 ::: 
 
 ::: image
@@ -89,20 +87,19 @@ Laser cutting to cunstruct our wooden radio.
 :::
 
 ::: text
-## The Finished Product in Action
+## The Working Prototype
 
 &nbsp;
 
-You can find the code on [github](https://github.com/benedikt-mayer/nfcradio) along with installation instructions. 
+You can find the code on [github](https://github.com/benedikt-mayer/nfcradio) available under the MIT license, along with installation instructions. 
 
 &nbsp;
 
-We've also written a detailed instruction guide featured on [intructables](https://www.instructables.com/id/NFC-Timeline-Radio/).  
+We've also written a popular instruction guide about the device featured on [intructables](https://www.instructables.com/id/NFC-Timeline-Radio/).  
 
 &nbsp;
 
-It contains all the laser cutting files, part recommendations, fritzing sketches as well as a plethora of images of the construction processes.
+The guide contains all the laser cutting files, part recommendations, fritzing sketches as well as a plethora of images of the construction process.
 :::
 :::
-
 :::

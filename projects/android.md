@@ -1,11 +1,13 @@
 ::: article
 ::: paragraph
 ::: text
-## Which Lectures and Free Rooms are around me?
+## Which Lectures and Free Rooms are nearby?
 
 &nbsp;
 
 With this question in mind, we built a unique Android app, focussing on an easy and accessible way to get location aware information.  
+
+&nbsp;
 
 In the app, the user can search any buildings around them for running courses as well as free rooms.
 
@@ -42,7 +44,6 @@ Our tech stack.
 &nbsp;
 
 The project includes a backend written in [Java Spring](https://spring.io/) and accesses a Mongo Database with the crawled data we gained via the crawling library [Jaunt](https://jaunt-api.com/) from the course catalog. 
-
 Frontend-wise, we used Kotlin for Android, connecting to the backend via a Rest API interface.
 
 &nbsp;
@@ -51,7 +52,7 @@ All of our code can be found on Github and is available under the MIT License: T
 
 &nbsp;
 
-Using server-side filtering, the client only receives the data it needs and can then efficiently and locally apply their filtering, e.g. what type of courses and faculties they are interested in. Internally, the app caches all room plans to save time when revisiting a building.
+Using server-side filtering, the client only receives the data it needs and can then efficiently and locally apply their filtering, e.g. what type of courses and faculties they are interested in. Additionally, the app caches all room plans to save time when revisiting a building.
 
 :::
 :::
@@ -67,12 +68,12 @@ When the user first opens up the app, they are presented with a quick intro into
 
 &nbsp;
 
-The app contains a explore stage where they can explore the area around them and find university buildings. 
+In the explore stage, the user can explore the area around them and find university buildings. 
 After selecting one of the buildings, the user finds a floor plan on which they can find all the lectures or free rooms. 
 
 &nbsp;
 
-Here, they can choose the time by adjusting a slider and receive more information about a specific room by selecting the marker on the room plan.
+Here, they can filter the time by adjusting a slider and receive more information about a specific room by selecting the marker on the room plan.
 
 :::
 ::: image

@@ -49,9 +49,6 @@
         <li>
             <a class="nav-links" href="https://benedikt-mayer.github.io/about.html">about</a>
         </li>
-        <li>
-            <a class="nav-links" href="https://benedikt-mayer.github.io/contact.html">contact</a>
-        </li>
         <li class="dropdown">
             <span class="nav-links" id="js-navbar-projects-toggle">projects</span>
             <ul class="dropdown-content" id="js-projects-menu">
@@ -95,9 +92,10 @@
         <div class="article">
 <div class="paragraph">
 <div class="text">
-<h2 id="which-lectures-and-free-rooms-are-around-me">Which Lectures and Free Rooms are around me?</h2>
+<h2 id="which-lectures-and-free-rooms-are-nearby">Which Lectures and Free Rooms are nearby?</h2>
 <p> </p>
 <p>With this question in mind, we built a unique Android app, focussing on an easy and accessible way to get location aware information.</p>
+<p> </p>
 <p>In the app, the user can search any buildings around them for running courses as well as free rooms.</p>
 <p> </p>
 <p>To get this information, we crawled the <a href="https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=user&amp;type=5&amp;language=en">course catalog</a> for all running courses and matched this information with the building data from the <a href="https://www.uni-muenchen.de/raumfinder/index.html#/">LMU Raumfinder app</a>.</p>
@@ -123,12 +121,11 @@
 <div class="text">
 <h2 id="tech-stack">Tech Stack</h2>
 <p> </p>
-<p>The project includes a backend written in <a href="https://spring.io/">Java Spring</a> and accesses a Mongo Database with the crawled data we gained via the crawling library <a href="https://jaunt-api.com/">Jaunt</a> from the course catalog.</p>
-<p>Frontend-wise, we used Kotlin for Android, connecting to the backend via a Rest API interface.</p>
+<p>The project includes a backend written in <a href="https://spring.io/">Java Spring</a> and accesses a Mongo Database with the crawled data we gained via the crawling library <a href="https://jaunt-api.com/">Jaunt</a> from the course catalog. Frontend-wise, we used Kotlin for Android, connecting to the backend via a Rest API interface.</p>
 <p> </p>
 <p>All of our code can be found on Github and is available under the MIT License: The backend on <a href="https://github.com/beneseifert/campusExplorerServer">campusExplorerServer</a> and the frontend on <a href="https://github.com/alexanderperzl/campusExplorerClient">campusExplorerClient</a>.</p>
 <p> </p>
-<p>Using server-side filtering, the client only receives the data it needs and can then efficiently and locally apply their filtering, e.g. what type of courses and faculties they are interested in. Internally, the app caches all room plans to save time when revisiting a building.</p>
+<p>Using server-side filtering, the client only receives the data it needs and can then efficiently and locally apply their filtering, e.g. what type of courses and faculties they are interested in. Additionally, the app caches all room plans to save time when revisiting a building.</p>
 </div>
 </div>
 <div class="paragraph">
@@ -137,9 +134,9 @@
 <p> </p>
 <p>When the user first opens up the app, they are presented with a quick intro into the main features of the app: explore, find and filter.</p>
 <p> </p>
-<p>The app contains a explore stage where they can explore the area around them and find university buildings. After selecting one of the buildings, the user finds a floor plan on which they can find all the lectures or free rooms.</p>
+<p>In the explore stage, the user can explore the area around them and find university buildings. After selecting one of the buildings, the user finds a floor plan on which they can find all the lectures or free rooms.</p>
 <p> </p>
-<p>Here, they can choose the time by adjusting a slider and receive more information about a specific room by selecting the marker on the room plan.</p>
+<p>Here, they can filter the time by adjusting a slider and receive more information about a specific room by selecting the marker on the room plan.</p>
 </div>
 <div class="image">
 <p><img src="../static/img/android_intro.jpg" alt="Three intro screens describing the explore, find, filter model." /><br />
@@ -177,6 +174,12 @@
                 <li>
                     <a aria-label="link to my Github profile" href="https://github.com/benedikt-mayer" target="_blank" rel="noreferrer">
                         <i aria-hidden="true" class="fab fa-2x fa-github"></i>
+                    </a>
+                </li>
+                 
+                <li>
+                    <a href="mailto:" data-name="benedikt_mayer" data-domain="outlook" data-tld="de" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
+                        <i aria-hidden="true" class="fas fa-2x fa-envelope"></i>
                     </a>
                 </li>
                  
