@@ -9,7 +9,7 @@ var imageContainers = [...document.getElementsByClassName("image")]
 imageContainers.forEach(imageContainer => {
     imageContainer.addEventListener("click", function () {
         // on mobile, show caption over image on tap
-        if (window.matchMedia("(max-width: 767px)").matches){
+        if (window.matchMedia("(max-width: 1023px)").matches){
             let captions = [...imageContainer.getElementsByClassName("caption")]
             captions.forEach(caption => {
                 caption.classList.toggle("visible")

@@ -58,7 +58,7 @@
 }
 
 /* navigation - platform specific */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
     .active {
         width: 100%;
         display: flex;
@@ -80,7 +80,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .main-nav {
         display: flex;
         margin-right: 1em;
