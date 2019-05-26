@@ -179,6 +179,13 @@ main {
 }
 
 /* main - platform specific */
+@media screen and (min-width: 768px) {
+    .content,
+    .heading {
+        margin: 2em 12em!important;
+    }
+}
+
 @media screen and (max-width: 1023px) {
     main {
         grid-gap: 0;
