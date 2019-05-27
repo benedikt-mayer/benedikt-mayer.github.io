@@ -19,25 +19,19 @@ body {
 }
 
 /* body - platform specific */
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: calc(((759.9px + 10rem) / 0.7))) {
     body {
         grid-gap: 0;
     }
 }
-
 
 /* email obfuscation */
 .crypted-mail:after {
     content: attr(data-name) "@"attr(data-domain) "."attr(data-tld);
 }
 
-
 /* link color */
 a:link,
 a:visited {
     color: inherit;
-
 }
-
-
-
