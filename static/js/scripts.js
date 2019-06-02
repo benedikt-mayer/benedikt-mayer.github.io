@@ -8,25 +8,23 @@ var imageContainers = [...document.getElementsByClassName("image")]
  */
 imageContainers.forEach(imageContainer => {
     imageContainer.addEventListener("click", function () {
-        // on mobile, show caption over image on tap
-        if (window.matchMedia("(max-width: 1023px)").matches){
-            let captions = [...imageContainer.getElementsByClassName("caption")]
-            captions.forEach(caption => {
-                caption.classList.toggle("visible")
-            })
-            let images = [...imageContainer.getElementsByTagName("p")]
-            images.forEach(image => {
-                image.classList.toggle("hover")
-            })
-        } 
         // on desktop, show image modal on click
-        else{
+        if (window.matchMedia("(min-width: calc((760px + 10rem) / 0.7))").matches) {
             document.getElementById("imageModal").style.display = "grid"
             document.getElementById("imageModalImage").src = imageContainer.getElementsByTagName("p")[0].getElementsByTagName("img")[0].src.replace(".jpg", "_large.jpg")
             document.getElementById("imageModalCaption").innerHTML = imageContainer.getElementsByClassName("caption")[0].getElementsByTagName("p")[0].innerHTML
         }
     })
 })
+
+/**
+ * close modal on escape
+ */
+document.addEventListener('keyup', function (event) {
+    if (event.key === 'Escape') {
+        document.getElementById("imageModal").style.display = "none"
+    }
+});
 
 /**
  * navigation toggle for mobile
