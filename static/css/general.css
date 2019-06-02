@@ -13,7 +13,7 @@ body {
 body {
     display: grid;
     grid-gap: 1em;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
     grid-template-rows: auto 1fr auto;
     grid-template-areas: "nav""main""footer";
 }
