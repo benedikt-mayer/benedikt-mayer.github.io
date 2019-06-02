@@ -7,10 +7,6 @@ main {
     grid-template-rows: repeat(2, [row] auto);
 }
 
-h2 {
-    font-family: "Roboto Mono", "Roboto", "Helvetica Neue", sans-serif;
-}
-
 h3 {
     margin-top: 3em;
 }
