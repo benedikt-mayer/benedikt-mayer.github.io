@@ -21,7 +21,7 @@ You can find more publications of mine on [Google Scholar](https://scholar.googl
 
 
 ::: image
-![Basic 3D interaction with gaze + pinch to manipulate cubes in a VR setting.](../static/img/$project_image$) \
+![Basic 3D interaction with gaze + pinch to manipulate cubes in a VR setting.](../static/img/thesis.jpg) \
 
 ::: caption
 Basic 3D interaction with gaze + pinch.

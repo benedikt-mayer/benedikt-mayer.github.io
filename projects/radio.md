@@ -18,7 +18,7 @@ To choose a genre, just place a new nfc tag on top of the device.
 ::: 
 
 ::: image
-![Our complete NFC Radio.](../static/img/$project_image$) \
+![Our complete NFC Radio.](../static/img/radio.jpg) \
 
 ::: caption
 Our complete NFC Radio.
