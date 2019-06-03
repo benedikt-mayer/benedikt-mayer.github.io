@@ -202,10 +202,6 @@ h3 {
         grid-row: 2;
     }
 
-    .image>p>img {
-        /* width: 100%; */
-    }
-
     .caption {
         display: flex;
         justify-content: center;
