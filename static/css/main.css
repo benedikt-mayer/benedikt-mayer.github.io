@@ -163,6 +163,14 @@ h3 {
 
 /* platform specific */
 @media screen and (max-width: calc(((759.9px + 10rem) / 0.7))) {
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-weight: 500;
+    }
+
     main {
         font-size: 0.8em;
     }
