@@ -91,7 +91,7 @@ Laser cutting to cunstruct our wooden radio.
 
 &nbsp;
 
-You can find the code on [github](https://github.com/benedikt-mayer/nfcradio) available under the MIT license, along with installation instructions. 
+You can find the code written by [Peter Ehrich](https://github.com/PeterEhrich) and [me](https://github.com/benedikt-mayer) on [Github](https://github.com/benedikt-mayer/nfcradio) available under the MIT license, along with installation instructions. 
 
 &nbsp;
 

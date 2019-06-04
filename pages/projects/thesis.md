@@ -44,7 +44,7 @@ Non-VR 3D interaction techniques have had many recent approaches using manual an
 Manual input appears particularly promising to solve problems of intuitiveness and immersion but lacks the ability to easily interact with remote objects, which eye-tracking tries to deal with.
 ::: 
 :::
-
+    
 ::: paragraph
 ::: text
 ## Immersive and Intuitive Interaction
