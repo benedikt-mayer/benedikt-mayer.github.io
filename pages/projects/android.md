@@ -17,7 +17,7 @@ To get this information, we crawled the [course catalog](https://lsf.verwaltung.
 
 &nbsp;
 
-The frame for project this was a [lab course on location aware apps](http://www.mobile.ifi.lmu.de/lehrveranstaltungen/msp-ws1819/) with the [chair of mobile and distributed systems](http://www.mobile.ifi.lmu.de/).
+The frame for this project was a [lab course on location aware apps](http://www.mobile.ifi.lmu.de/lehrveranstaltungen/msp-ws1819/) with the [chair of mobile and distributed systems](http://www.mobile.ifi.lmu.de/).
 
 :::
 ::: image
