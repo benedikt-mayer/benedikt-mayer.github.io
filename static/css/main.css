@@ -261,7 +261,8 @@ h4 {
         display: grid;
         grid-template-columns: [col] 1fr [col] 30% [col] 30% [col] 1fr;
         grid-gap: 10%;
-        padding: 8em 0;
+        padding-top: 3em;
+        padding-bottom: 6em;
     }
 
     .paragraph:nth-child(odd)>.text,
