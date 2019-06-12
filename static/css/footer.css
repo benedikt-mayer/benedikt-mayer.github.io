@@ -5,7 +5,7 @@ footer {
 }
 
 footer>.wrapper {
-    margin: 2em;
+    margin: 5em;
     display: grid;
     grid-gap: 1em;
     grid-template-rows: repeat(3, [row] 1fr);
@@ -35,8 +35,8 @@ footer>.wrapper>.grid-item>ul>li>a {
 /* platform specific */
 @media screen and (max-width: 1023px) {
     footer>.wrapper {
-        grid-gap: 0;
-        margin: 1em;
+        grid-gap: 1em;
+        margin: 2em;
         grid-column: col 1 / span 5;
     }
 }
