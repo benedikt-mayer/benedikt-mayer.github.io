@@ -3,7 +3,6 @@ main {
     grid-area: main;
     display: grid;
     grid-row-gap: 2em;
-    grid-template-rows: repeat(2, [row] auto);
 }
 
 h1 {
@@ -21,7 +20,6 @@ h4 {
 }
 
 .heading {
-    display: grid;
     margin: 1em 0;
 }
 
@@ -34,6 +32,7 @@ h4 {
 .gallery-header-wrapper,
 .gallery-content-wrapper {
     display: grid;
+    grid-template-rows: max-content;
 }
 
 .gallery-header,
@@ -167,7 +166,7 @@ h4 {
 }
 
 /* platform specific */
-@media screen and (max-width: calc(((759.9px + 10rem) / 0.7))) {
+@media screen and (max-width: 1199px) {
 
     h1,
     h2,
@@ -227,13 +226,7 @@ h4 {
     }
 }
 
-@media screen and (min-width: 768px) {
-    main {
-        grid-template-columns: unset;
-    }
-}
-
-@media screen and (min-width: calc((760px + 10rem) / 0.7)) {
+@media screen and (min-width: 1200px) {
 
     .heading,
     .gallery-header-wrapper,
