@@ -105,8 +105,8 @@
     <div class="box content">
         <div class="article">
 <div class="paragraph">
-<div class="text">
-<h2 id="which-lectures-and-free-rooms-are-nearby">Which Lectures and Free Rooms are nearby?</h2>
+<section id="which-lectures-and-free-rooms-are-nearby" class="text">
+<h2>Which Lectures and Free Rooms are nearby?</h2>
 <p> </p>
 <p>With this question in mind, we built a unique Android app, focussing on an easy and accessible way to get location aware information.</p>
 <p> </p>
@@ -115,7 +115,7 @@
 <p>To get this information, we crawled the <a href="https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=user&amp;type=5&amp;language=en">course catalog</a> for all running courses and matched this information with the building data from the <a href="https://www.uni-muenchen.de/raumfinder/index.html#/">LMU Raumfinder app</a>.</p>
 <p> </p>
 <p>The frame for this project was a <a href="http://www.mobile.ifi.lmu.de/lehrveranstaltungen/msp-ws1819/">lab course on location aware apps</a> with the <a href="http://www.mobile.ifi.lmu.de/">chair of mobile and distributed systems</a>.</p>
-</div>
+</section>
 <div class="image">
 <p><img src="../static/img/android.jpg" alt="Two screens: image it shows a map with buildings marked by pins, right it shows a building plan with rooms marked by pins." /><br />
 </p>
@@ -132,26 +132,26 @@
 <p>Our tech stack.</p>
 </div>
 </div>
-<div class="text">
-<h2 id="tech-stack">Tech Stack</h2>
+<section id="tech-stack" class="text">
+<h2>Tech Stack</h2>
 <p> </p>
 <p>The project includes a backend written in <a href="https://spring.io/">Java Spring</a> and accesses a Mongo Database with the crawled data we gained via the crawling library <a href="https://jaunt-api.com/">Jaunt</a> from the course catalog. Frontend-wise, we used Kotlin for Android, connecting to the backend via a Rest API interface.</p>
 <p> </p>
 <p>All of our code can be found on Github and is available under the MIT License: The backend on <a href="https://github.com/beneseifert/campusExplorerServer">campusExplorerServer</a> and the frontend on <a href="https://github.com/alexanderperzl/campusExplorerClient">campusExplorerClient</a>.</p>
 <p> </p>
 <p>Using server-side filtering, the client only receives the data it needs and can then efficiently and locally apply their filtering, e.g. what type of courses and faculties they are interested in. Additionally, the app caches all room plans to save time when revisiting a building.</p>
-</div>
+</section>
 </div>
 <div class="paragraph">
-<div class="text">
-<h2 id="app-workflow">App Workflow</h2>
+<section id="app-workflow" class="text">
+<h2>App Workflow</h2>
 <p> </p>
 <p>When the user first opens up the app, they are presented with a quick intro into the main features of the app: explore, find and filter.</p>
 <p> </p>
 <p>In the explore stage, the user can explore the area around them and find university buildings. After selecting one of the buildings, the user finds a floor plan on which they can find all the lectures or free rooms.</p>
 <p> </p>
 <p>Here, they can filter the time by adjusting a slider and receive more information about a specific room by selecting the marker on the room plan.</p>
-</div>
+</section>
 <div class="image">
 <p><img src="../static/img/android_intro.jpg" alt="Three intro screens describing the explore, find, filter model." /><br />
 </p>
@@ -208,7 +208,7 @@
 
         <div class="grid-item">
             <p>
-                Copyright &copy; Benedikt Mayer 2019.
+                Copyright &copy; Benedikt Mayer 2020.
             </p>
         </div>
 
