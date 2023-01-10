@@ -45,8 +45,7 @@ main = hakyllWith config $ do
 -- normal site context
 siteCtx :: Context String
 siteCtx =
-  constField "baseurl" ""
-    <> constField "site_description"  "benedikt mayer | portfolio"
+  constField "site_description"  "benedikt mayer | portfolio"
     <> constField "site_title"        "benedikt mayer | portfolio"
     <> constField "github_username"   "benedikt-mayer"
     <> constField "linkedin_username" "benedikt-mayer-7ab235132"

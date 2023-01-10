@@ -1,27 +1,27 @@
 <!-- Navigation -->
 <nav class="navbar">
     <span aria-label="home" id="js-home">
-        <a class="logo" href="$baseurl$/">benedikt mayer</a>
+        <a class="logo" href="/">benedikt mayer</a>
     </span>
     <span aria-label="mobile menu" class="navbar-toggle" id="js-navbar-toggle">
         <i class="fas fa-bars"></i>
     </span>
     <ul class="main-nav" id="js-menu">
         <li>
-            <a class="nav-links" href="$baseurl$/about.html">about</a>
+            <a class="nav-links" href="/about.html">about</a>
         </li>
         <li class="dropdown">
             <span class="nav-links" id="js-navbar-projects-toggle">projects</span>
             <ul class="dropdown-content" id="js-projects-menu">
                 $for(projects)$
                 <li>
-                    <a class="nav-links" href="$baseurl$/$slug$.html">$slug$</a>
+                    <a class="nav-links" href="/$slug$.html">$slug$</a>
                 </li>
                 $endfor$
             </ul>
         </li>
         <li>
-            <a class="nav-links" href="$baseurl$/static/doc/Resume.pdf">resume</a>
+            <a class="nav-links" href="/static/doc/Resume.pdf">resume</a>
         </li>
         <li>
             <a aria-label="link to my Github profile" class="nav-links" href="https://www.github.com/$github_username$"
