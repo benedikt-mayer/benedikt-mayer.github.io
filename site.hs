@@ -45,7 +45,7 @@ main = hakyllWith config $ do
 -- normal site context
 siteCtx :: Context String
 siteCtx =
-  constField "baseurl" "http://localhost:35730"
+  constField "baseurl" ""
     <> constField "site_description"  "benedikt mayer | portfolio"
     <> constField "site_title"        "benedikt mayer | portfolio"
     <> constField "github_username"   "benedikt-mayer"
