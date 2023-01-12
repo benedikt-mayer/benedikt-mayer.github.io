@@ -40,7 +40,7 @@
     <meta property="og:url" content>
 
     <!-- Canonical -->
-    <link rel="canonical" href="./radio.html">
+    <link rel="canonical" href="./devcontainers.html">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     <!-- StyleSheet -->
@@ -102,83 +102,69 @@
     <div class="box heading">
             <h1>
                 
-                NFC Timeline Radio
+                Dev Containers
                 
             </h1>
     </div>
     <div class="box content">
         <div class="article">
 <div class="paragraph">
-<section id="new-features-classic-design" class="text">
-<h2>New Features, Classic Design?</h2>
+<section id="why-you-should-care-about-development-containers" class="text">
+<h2>Why you should care about development containers</h2>
 <p> </p>
-<p>In a lab project at the <a href="https://www.en.um.informatik.uni-muenchen.de/index.html">department of human-centered ubiquitous media</a> we were challenged to create a modern music player which references traditional radio design.</p>
+<p>When someone new joins your project team, how long do they need until every tool is installed and they can run code on their development machine?</p>
 <p> </p>
-<p>Our prototype has two e-paper screens, one showing the currently playing song and one showing a selection of songs of a particular genre.</p>
+<p>How much do the development setups of your different engineers differ?
+How long is your setup guide documentation?</p>
 <p> </p>
-<p>The song selection is analog to the radio station selection on FM radios: Just move the red bar over the desired song on the timeline and enjoy.
-To choose a genre, just place a new nfc tag on top of the device.</p>
+<p>“Works on my machine” is less of a problem these days if the application you’re developing is containerized.
+But what about the tools and configurations you need to develop your application which live outside of your application container?</p>
 </section>
 <div class="image">
-<p><img src="../static/img/radio.jpg" alt="Our complete NFC Radio." /><br />
+<p><img src="../static/img/cowsay.png" alt="A screenshot of a terminal installing tools, in this case cowsay." /><br />
 </p>
 <div class="caption">
-<p>Our complete NFC Radio.</p>
+<p>Installing tools during onboarding can be a pain.</p>
 </div>
 </div>
 </div>
 <div class="paragraph">
 <div class="image">
-<p><img src="../static/img/radio_nordmende.jpg" alt="German radio receiver “Carmen” from Nordmende, image from flickr https://www.flickr.com/photos/lanier67/7162468903" /><br />
+<p><img src="../static/img/codespaces_social.jpg" alt="A marketing image from GitHub showing a code editor in the browser as well as features of GitHub codespaces like debugging and machines of up to 32 CPU cores and 64GB of memory." /><br />
 </p>
 <div class="caption">
-<p>German radio receiver “Carmen” from Nordmende, image from <a href="https://www.flickr.com/photos/lanier67/7162468903">flickr</a>.</p>
+<p>GitHub Codespaces shine through their many templates for different languages and setups.</p>
 </div>
 </div>
-<section id="classic-radio-elements" class="text">
-<h2>Classic Radio Elements</h2>
+<section id="github-codespaces" class="text">
+<h2>GitHub Codespaces</h2>
 <p> </p>
-<p>Devices from the likes of Braun, Grundig, Nordmende and Telefunken have inspired our project to create a modern radio device with the majestic looks of the past.</p>
+<p>What if you want to separate your development environment from your machine completely?</p>
 <p> </p>
-<p>Thus, our radio is made out of wood, with warm-colored miniature light bulbs and very haptic dials to turn.</p>
+<p>With development containers, you can use the power of containerization for your whole setup: Configure one file and have developers spin up a container with everything preinstalled so that they can focus on what matters: Developing your product.</p>
 <p> </p>
-<p>With e-ink displays, the device never distracts by being overly bright or unnatural-looking.</p>
+<p>GitHub has been a front runner in this domain with <a href="https://github.com/features/codespaces">GitHub Codespaces</a>: Combined with Visual Studio Code (in the browser or locally), you can open a fully featured IDE from any public GitHub repository by logging into GitHub and pressing “.”.</p>
+<p> </p>
+<p>To standardize these development container configurations, Microsoft has created an open specification at <a href="https://containers.dev/">Development containers</a>.</p>
 </section>
 </div>
 <div class="paragraph">
-<section id="construction-process" class="text">
-<h2>Construction Process</h2>
+<section id="alternatives" class="text">
+<h2>Alternatives</h2>
 <p> </p>
-<p>Our final prototype contains two Raspberry Pis as well as an Arduino to drive the two e-ink displays, an NFC reader as well as all the analog potentiometers and motors.</p>
+<p>Apart from Microsoft / GitHub, there are also other providers of similar services like <a href="https://coder.com/">Coder</a>, which we recently investigated at one of our customers as an option to improve their development setup.</p>
 <p> </p>
-<p>We laser-cut our case out of MDF wood and engraved labels for “Volume”, “Song”, “Play” and the NFC-reader on top.</p>
+<p>With Coder, you can set up development containers as terraform templates, which the developers can then invoke via a user-friendly web UI and then connect to from their favorite tool like Visual Studio Code.</p>
 <p> </p>
-<p>On the bottom of our larger screen we’ve mounted a motorized fader, usually known from mixer consoles, to move the physical red bar across the screen.</p>
+<p>Coder, in contrast to GitHub Codespaces, is run on your own on-prem or public cloud infrastructure, so you can use it independently of where you’re hosting your code.</p>
 </section>
 <div class="image">
-<p><img src="../static/img/radio_construction.jpg" alt="A preview of the lasercut wooden frontal and top part of our radio." /><br />
+<p><img src="../static/img/coder.jpg" alt="Placeholder alt text." /><br />
 </p>
 <div class="caption">
-<p>Laser cutting to cunstruct our wooden radio.</p>
+<p>Coder has a very usable self-service UI to provision dev containers.</p>
 </div>
 </div>
-</div>
-<div class="paragraph">
-<div class="image">
-<div class="video">
-<iframe src="https://www.youtube.com/embed/Fbv3RyXO0YM" title="YouTube video of the NFC radio." frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</div>
-</div>
-<section id="the-working-prototype" class="text">
-<h2>The Working Prototype</h2>
-<p> </p>
-<p>You can find the code written by <a href="https://github.com/PeterEhrich">Peter Ehrich</a> and <a href="https://github.com/benedikt-mayer">me</a> on <a href="https://github.com/benedikt-mayer/nfcradio">Github</a> available under the MIT license, along with installation instructions.</p>
-<p> </p>
-<p>We’ve also written a popular instruction guide about the device featured on <a href="https://www.instructables.com/id/NFC-Timeline-Radio/">intructables</a>.</p>
-<p> </p>
-<p>The guide contains all the laser cutting files, part recommendations, fritzing sketches as well as a plethora of images of the construction process.</p>
-</section>
 </div>
 </div>
         
