@@ -1,9 +1,9 @@
 ---
-project_title: Dev Containers
-project_description: Introducing development containers to improve your technical onboarding.
-project_image: container_stock_4_3.jpg
-project_image_alt_text: A picture of a shipping containers.
-slug: devcontainers
+project_title: Platform Engineering
+project_description: A UX perspective on building great platforms.
+project_image: lu_hbf_4_3.jpg
+project_image_alt_text: A picture of Ludwigshafen's main station in the fifties.
+slug: platform-engineering
 ---
 
 ::: article

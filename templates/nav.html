@@ -9,8 +9,9 @@
     <ul class="main-nav" id="js-menu">
         <!-- Dark mode toggle button as first menu item -->
         <li>
-            <button id="dark-mode-toggle" aria-label="Toggle dark mode"
-                style="background:none;border:none;cursor:pointer;font-size:1.2em;">
+            <a class="nav-links" href="#" id="dark-mode-toggle" aria-label="Toggle dark mode"
+                style="display: flex; align-items: center; gap: 0.3em;">
+                <span>dark mode</span>
                 <span id="dark-mode-icon" aria-hidden="true">
                     <!-- Moon (white) SVG for dark mode, Sun (black) SVG for light mode -->
                     <svg id="icon-moon" width="1em" height="1em" viewBox="0 0 24 24" fill="white" style="display:inline;">
@@ -30,7 +31,7 @@
                         </g>
                     </svg>
                 </span>
-            </button>
+            </a>
         </li>
         <li>
             <a class="nav-links" href="/about.html">about</a>

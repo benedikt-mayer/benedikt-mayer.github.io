@@ -118,3 +118,15 @@
         padding-top: 1em;
     }
 }
+
+html.dark-mode .nav-links,
+html.dark-mode .dropdown > .nav-links,
+html.dark-mode #js-navbar-projects-toggle {
+    color: #8ab4f8;
+}
+
+html.dark-mode .nav-links:hover,
+html.dark-mode .dropdown > .nav-links:hover,
+html.dark-mode #js-navbar-projects-toggle:hover {
+    border-bottom: 0.1em solid #8ab4f8;
+}
