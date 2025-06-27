@@ -268,10 +268,3 @@ h4 {
         grid-column: 3;
     }
 }
-
-@media (prefers-color-scheme: dark) {
-    html.dark-mode body { /* dark mode styles here */ }
-    html.dark-mode .paragraph:nth-child(odd) { /* ... */ }
-    html.dark-mode footer { /* ... */ }
-    /* etc. */
-}
