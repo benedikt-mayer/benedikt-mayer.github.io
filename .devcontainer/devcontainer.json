@@ -1,6 +1,6 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
-    "ghcr.io/devcontainers-contrib/features/haskell:2": {}
+    "ghcr.io/devcontainers-extra/features/haskell:2": {}
   }
 }
