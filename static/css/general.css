@@ -35,3 +35,42 @@ a:link,
 a:visited {
     color: inherit;
 }
+
+/* Dark mode support - use .dark-mode class for all overrides */
+html.dark-mode body {
+    background-color: #181a1b;
+    color: #e0e0e0;
+}
+
+html.dark-mode a:link,
+html.dark-mode a:visited {
+    color: #8ab4f8;
+}
+
+html.dark-mode footer {
+    background-color: #23262b;
+    color: #e0e0e0;
+}
+
+html.dark-mode h1, html.dark-mode h2, html.dark-mode h3, html.dark-mode h4 {
+    border-bottom-color: #444;
+}
+
+html.dark-mode .gallery-item {
+    background: #23272a;
+    box-shadow: 0 0.3em 0.5em 0 rgba(0,0,0,0.7);
+}
+
+html.dark-mode .paragraph:nth-child(odd) {
+    background-color: #23272a;
+}
+
+html.dark-mode .modal {
+    background-color: rgba(20, 20, 20, 0.95);
+    color: #e0e0e0;
+}
+
+html.dark-mode .sourceCode {
+    background: #181a1b;
+    color: #e0e0e0;
+}
