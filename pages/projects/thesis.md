@@ -4,6 +4,7 @@ project_description: In my bachelor thesis and a follow-up paper, I explored eye
 project_image: thesis_squared.jpg
 project_image_alt_text: A VR scene with two hands manipulating a distant cube.
 slug: thesis
+slug_with_space: thesis
 ---
 
 

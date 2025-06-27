@@ -4,6 +4,7 @@ project_description: We built a modern NFC radio with retro looks for a project 
 project_image: radio_squared.jpg
 project_image_alt_text: A wooden retro radio with a red slider in front of a e-ink display.
 slug: radio
+slug_with_space: radio
 ---
 
 ::: article

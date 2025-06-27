@@ -4,6 +4,7 @@ project_description: Which lectures and free rooms are around me? Location-aware
 project_image: android_square.jpg
 project_image_alt_text: An Android app with two maps, one of the surrounding buildings and one of the selected building.
 slug: android
+slug_with_space: android
 ---
 
 ::: article

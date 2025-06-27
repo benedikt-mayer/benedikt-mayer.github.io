@@ -4,6 +4,7 @@ project_description: Introducing development containers to improve your technica
 project_image: container_stock_4_3.jpg
 project_image_alt_text: A picture of a shipping containers.
 slug: dev-containers
+slug_with_space: dev containers
 ---
 
 ::: article
@@ -89,7 +90,6 @@ Coder, in contrast to GitHub Codespaces, is run on your own on-prem or public cl
 
 ::: caption
 Coder has a very usable self-service UI to provision dev containers.
-:::
 :::
 :::
 :::

@@ -4,6 +4,7 @@ project_description: A UX perspective on building great platforms.
 project_image: lu_hbf_4_3.jpg
 project_image_alt_text: A picture of Ludwigshafen's main station in the fifties.
 slug: platform-engineering
+slug_with_space: platform engineering
 ---
 
 ::: article
