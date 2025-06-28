@@ -3,8 +3,8 @@ project_title: Interaction in VR
 project_description: In my bachelor thesis and a follow-up paper, I explored eye-tracking and gesture interaction in VR.
 project_image: thesis_squared.jpg
 project_image_alt_text: A VR scene with two hands manipulating a distant cube.
-slug: thesis
-sub_header: thesis
+slug: bachelor-thesis
+sub_header: bachelor thesis
 published_date: 07.05.2019
 published: 2019-05-07
 ---
