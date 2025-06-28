@@ -1,17 +1,18 @@
 ---
-project_title: Campus Explorer
+project_title: Campus explorer
 project_description: Which lectures and free rooms are around me? Location-aware systems to the rescue.
 project_image: android_square.jpg
 project_image_alt_text: An Android app with two maps, one of the surrounding buildings and one of the selected building.
 slug: android
 sub_header: android
-published: 15.05.2019
+published_date: 15.05.2019
+published: 2019-05-15
 ---
 
 ::: article
 ::: paragraph
 ::: text
-## Which Lectures and Free Rooms are nearby?
+## Which lectures and free rooms are nearby?
 
 &nbsp;
 

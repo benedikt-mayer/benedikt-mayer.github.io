@@ -29,6 +29,7 @@ h4 {
 
 /* Gallery Layout */
 .heading,
+.subheading,
 .gallery-header-wrapper,
 .gallery-content-wrapper {
     display: grid;
@@ -48,6 +49,7 @@ h4 {
 .gallery-item {
     box-shadow: 0 0.3em 0.5em 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
+    border-radius: 0.5em;
 }
 
 .gallery-item>a {
@@ -56,6 +58,8 @@ h4 {
 
 .gallery-item>a>img {
     width: 100%;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
 }
 
 .gallery-text {
@@ -72,7 +76,6 @@ h4 {
 
 .gallery-published {
     font-size: 0.85em;
-    font-style: italic;
     color: #888;
     margin-bottom: 0.5em;
 }
@@ -173,6 +176,12 @@ h4 {
     cursor: pointer;
 }
 
+/* Subheading Styles for date in blogpost */
+.published-date-subheading {
+    color: #888;
+    grid-column: 2;
+}
+
 /* Responsive Styles */
 @media screen and (max-width: 1199px) {
     h1, h2, h3, h4 {
@@ -184,7 +193,7 @@ h4 {
     .content, .heading {
         grid-gap: 0;
     }
-    .heading, .gallery-header-wrapper, .gallery-content-wrapper {
+    .heading, .subheading, .gallery-header-wrapper, .gallery-content-wrapper {
         grid-template-columns: [col] 1fr [col] 90% [col] 1fr;
     }
     .gallery-content {
@@ -216,7 +225,7 @@ h4 {
 }
 
 @media screen and (min-width: 1200px) {
-    .heading, .gallery-header-wrapper, .gallery-content-wrapper {
+    .heading, .subheading, .gallery-header-wrapper, .gallery-content-wrapper {
         grid-template-columns: [col] 1fr [col] 70% [col] 1fr;
     }
     .gallery-content {

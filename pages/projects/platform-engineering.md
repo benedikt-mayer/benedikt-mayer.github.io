@@ -1,11 +1,12 @@
 ---
-project_title: Platform Engineering
+project_title: Platform engineering
 project_description: What we can learn about building great platforms from UX and the city of Ludwigshafen.
 project_image: lu_hbf_4_3.jpg
 project_image_alt_text: A picture of Ludwigshafen's main station in the fifties.
 slug: platform-engineering
 sub_header: platform engineering
-published: 01.07.2025
+published_date: 01.07.2025
+published: 2025-07-01
 ---
 
 ::: article
@@ -15,7 +16,10 @@ published: 01.07.2025
 
 &nbsp;
 
-Reading online, if you manage to make it through the mound of AI/Agent/Copilot posts, a lot of people are talking about building platforms.  
+Reading online, if you manage to make it through the mound of AI/Agent/Copilot posts, a lot of people are talking about building platforms.
+
+&nbsp;
+
 I'm also guilty of this, having been part of ML, data and streaming platform teams in the last years.
 
 &nbsp;
@@ -24,7 +28,10 @@ According to [wikipedia](https://en.wikipedia.org/wiki/Platform_engineering): â€
 
 &nbsp;
 
-So platforms are not some super concrete thing, they are usually just something you write to be used by other engineers at your to help them build their products.  
+So platforms are not some super concrete thing, they are usually just something you write to be used by other engineers at your to help them build their products.
+
+&nbsp;
+
 Often, the purpose is to reduce reduntant work, simplify operations due to more coordinated tech stacks and improve the developer experience.
 
 :::
@@ -51,7 +58,10 @@ An image of Ludwigshafen's old railway station from 1958, taken from [wikipedia]
 
 &nbsp;
 
-Having grown up in Ludwigshafen am Rhein, I grew up having a huge, impressive, ugly and mostly deserted railway station at the edge of our medium-sized city.  
+Having grown up in Ludwigshafen am Rhein, I grew up having a huge, impressive, ugly and mostly deserted railway station at the edge of our medium-sized city.
+
+&nbsp;
+
 It was built in 1969 to replace the existing station, which due to being a terminus, became impractical and outdated.  
 Additionally, the rising city of Ludwigshafen wanted to have a representative station, part of it's plan of a modern city called [Projekt Visitenkarte](https://de.wikipedia.org/wiki/Projekt_Visitenkarte).
 

@@ -44,10 +44,6 @@ html.dark-mode a:visited {
     color: #fff;
 }
 
-html.dark-mode h1, html.dark-mode h2, html.dark-mode h3, html.dark-mode h4 {
-    border-bottom-color: #444;
-}
-
 html.dark-mode .gallery-item {
     background: #23272a;
     box-shadow: 0 0.3em 0.5em 0 rgba(0,0,0,0.7);

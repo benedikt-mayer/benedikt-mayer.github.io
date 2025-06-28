@@ -8,9 +8,11 @@
                 $title$
                 $endif$
             </h1>
-            $if(published)$
-                <p>$published$</p>
-            $endif$
+    </div>
+    <div class="box subheading">
+        $if(published_date)$
+            <p class="published-date-subheading">$published_date$</p>
+        $endif$
     </div>
     <div class="box content">
         $body$

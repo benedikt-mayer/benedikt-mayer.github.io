@@ -1,11 +1,12 @@
 ---
-project_title: Dev Containers
+project_title: Dev containers
 project_description: Introducing development containers to improve your technical onboarding.
 project_image: container_stock_4_3.jpg
 project_image_alt_text: A picture of a shipping containers.
 slug: dev-containers
 sub_header: dev containers
-published: 10.01.2023
+published_date: 10.01.2023
+published: 2023-01-10
 ---
 
 ::: article

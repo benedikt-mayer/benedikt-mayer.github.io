@@ -5,14 +5,15 @@ project_image: thesis_squared.jpg
 project_image_alt_text: A VR scene with two hands manipulating a distant cube.
 slug: thesis
 sub_header: thesis
-published: 07.05.2019
+published_date: 07.05.2019
+published: 2019-05-07
 ---
 
 
 ::: article
 ::: paragraph
 ::: text
-## Gaze + Pinch in Action
+## Gaze + pinch in action
 
 &nbsp;
 
@@ -40,7 +41,7 @@ Basic 3D interaction with gaze + pinch.
 :::
 
 ::: text
-## Eye-Tracking and Gestures in VR
+## Eye-tracking and gestures in VR
 
 &nbsp;
 
@@ -58,7 +59,7 @@ Manual input appears particularly promising to solve problems of intuitiveness a
     
 ::: paragraph
 ::: text
-## Immersive and Intuitive Interaction
+## Immersive and intuitive interaction
 
 &nbsp;
 
@@ -89,7 +90,7 @@ In a 3D living room scene, the user can rearrange their furniture by using gaze 
 :::
 
 ::: text
-## Expanding the Concept
+## Expanding the concept
 
 &nbsp;
 
