@@ -41,7 +41,7 @@ html.dark-mode body {
 
 html.dark-mode a:link,
 html.dark-mode a:visited {
-    color: #8ab4f8;
+    color: #fff;
 }
 
 html.dark-mode h1, html.dark-mode h2, html.dark-mode h3, html.dark-mode h4 {
