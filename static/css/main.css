@@ -72,9 +72,10 @@ h4 {
 
 .gallery-text>h4 {
     margin-bottom: 0.5em;
+    width: fit-content;
 }
 
-.gallery-published {
+.gallery-published-date {
     font-size: 0.85em;
     color: #888;
     margin-bottom: 0.5em;
