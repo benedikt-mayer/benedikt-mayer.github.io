@@ -27,7 +27,7 @@ main = hakyllWith config $ do
       "html"
 
     compile $ do
-      postList <- loadAll ("pages/projects/*" .&&. hasVersion "meta")
+      postList <- recentFirst =<< loadAll ("pages/projects/*" .&&. hasVersion "meta")
       let projectsCtx =
             listField "projects" siteCtx (return postList) <> siteCtx
       getResourceBody
