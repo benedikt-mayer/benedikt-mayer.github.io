@@ -10,7 +10,7 @@ slug: index
 
 &nbsp;
 
-### Articles and Projects
+### Articles and projects
 
 &nbsp;
 :::

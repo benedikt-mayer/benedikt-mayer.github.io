@@ -5,8 +5,8 @@ project_image: lu_hbf_4_3.jpg
 project_image_alt_text: A picture of Ludwigshafen's main station in the fifties.
 slug: platform-engineering
 sub_header: platform engineering
-published_date: 01.07.2025
-published: 2025-07-01
+published_date: 29.06.2025
+published: 2025-06-29
 ---
 
 ::: article
@@ -62,13 +62,11 @@ Having grown up in Ludwigshafen am Rhein, I grew up having a huge, impressive, u
 
 &nbsp;
 
-It was built in 1969 to replace the existing station, which due to being a terminus, became impractical and outdated.  
-Additionally, the rising city of Ludwigshafen wanted to have a representative station, part of it's plan of a modern city called [Projekt Visitenkarte](https://de.wikipedia.org/wiki/Projekt_Visitenkarte).
+It was built in 1969 to replace the existing station, which due to being a terminus, became impractical and outdated. Additionally, the rising city of Ludwigshafen wanted to have a representative station, part of it's plan of a modern city called [Projekt Visitenkarte](https://de.wikipedia.org/wiki/Projekt_Visitenkarte).
 
 &nbsp;
 
-So city planners and Deutsche Bahn went ahead and constructed a monumentally huge railway station with 12 platforms spread across three levels.  
-For infrastructure reasons, as there were existing tracks and crossings at the desired location, the station was moved outside the city center.
+So city planners and Deutsche Bahn went ahead and constructed a monumentally huge railway station with 12 platforms spread across three levels. For infrastructure reasons, as there were existing tracks and crossings at the desired location, the station was moved outside the city center.
 
 &nbsp;
 
@@ -78,8 +76,7 @@ Even according to Ludwigshafen's 1984 mayor Werner Ludwig, the station is an eye
 &nbsp;
 
 So what can we learn for platform engineering?  
-Just because something is practical for infrastructure reasons, it might not be what people need.  
-Rivalries between departments can lead to competing platforms (e.g. Ludwigshafen vs Mannheim) which then have to be expensively consolidated later.
+Just because something is practical for infrastructure reasons, it might not be what people need. Another parallel is that rivalries between departments can lead to competing platforms (e.g. Ludwigshafen vs Mannheim) which then have to be expensively consolidated later.
 
 :::
 :::
@@ -92,19 +89,25 @@ Rivalries between departments can lead to competing platforms (e.g. Ludwigshafen
 &nbsp;
 
 Just because a platform is built for engineers and internal, it doesn't mean one should expect them to all think and work like the platform engineers: You are not the user.  
-Finding out who the product is targeting is one of the most important parts of building a product: Find them and talk to them.  
-People from different backgrounds and different teams have vastly different views and needs for your platform: Ask for feedback and try to provide a great [developer experience](https://microsoft.github.io/code-with-engineering-playbook/developer-experience/) for them.  
 
 &nbsp;
 
-When shipping a full-stack application, we would never ignore the frondent, the same applies to platforms.  
-The main frontend of your platform is your documenation: Find out how people use your platform and provide the documenatation which they need, alongside OpenAPI specs etc.  
+Finding out who the product is targeting is one of the most important parts of building a product: Find them and talk to them. People from different backgrounds and different teams have vastly different views and needs for your platform: Ask for feedback and try to provide a great [developer experience](https://microsoft.github.io/code-with-engineering-playbook/developer-experience/) for them.  
+
+&nbsp;
+
+When shipping a full-stack application, we would never ignore the frondent, the same applies to platforms. The main frontend of your platform is your documenation: Find out how people use your platform and provide the documenatation which they need, alongside OpenAPI specs etc.
+
+&nbsp;
+
 The more your documentation is tailored to your users' needs, the more likely people will use it and keep it up to date.  
 
 &nbsp;
 
-Lastly, the better your connection to the developers using your platform, the better.  
-Fostering a community of platform users through keeping in touch, clear communication of bugs and fixes, can help a great deal to prevent developer frustration.  
+Lastly, the better your connection to the developers using your platform, the better. Fostering a community of platform users through keeping in touch, clear communication of bugs and fixes, can help a great deal to prevent developer frustration. 
+
+&nbsp;
+
 This also applies to positive updates: Celebrate your successes and talk about all your new features, which can increase acceptance and excitement for using the great platforms you will build.
 
 :::

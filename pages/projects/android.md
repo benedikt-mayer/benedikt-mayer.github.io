@@ -50,7 +50,7 @@ Our tech stack.
 :::
 
 ::: text
-## Tech Stack
+## Tech stack
 
 &nbsp;
 
@@ -71,7 +71,7 @@ Using server-side filtering, the client only receives the data it needs and can 
 ::: paragraph
 
 ::: text
-## App Workflow
+## App workflow
 
 &nbsp;
 
