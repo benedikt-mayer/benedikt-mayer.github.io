@@ -5,6 +5,7 @@ project_image: container_stock_4_3.jpg
 project_image_alt_text: A picture of a shipping containers.
 slug: dev-containers
 sub_header: dev containers
+published: 10.01.2023
 ---
 
 ::: article

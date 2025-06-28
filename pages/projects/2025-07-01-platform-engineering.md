@@ -5,6 +5,7 @@ project_image: lu_hbf_4_3.jpg
 project_image_alt_text: A picture of Ludwigshafen's main station in the fifties.
 slug: platform-engineering
 sub_header: platform engineering
+published: 01.07.2025
 ---
 
 ::: article

@@ -60,12 +60,20 @@ h4 {
 
 .gallery-text {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
+    flex-flow: column nowrap;
     margin: 1em 1em 2em 1em;
     font-size: 0.9em;
 }
 
 .gallery-text>h4 {
+    margin-bottom: 0.5em;
+}
+
+.gallery-published {
+    font-size: 0.85em;
+    font-style: italic;
+    color: #888;
     margin-bottom: 0.5em;
 }
 
