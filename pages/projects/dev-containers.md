@@ -1,6 +1,6 @@
 ---
 project_title: Dev containers
-project_description: Introducing development containers to improve your technical onboarding.
+project_description: Introducing development containers to improve your technical onboarding. Also how I keep this site up to date!
 project_image: container_stock_4_3.jpg
 project_image_alt_text: A picture of a shipping containers.
 slug: dev-containers
