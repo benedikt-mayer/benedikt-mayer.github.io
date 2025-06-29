@@ -20,7 +20,7 @@ Reading online, if you manage to make it through the mound of AI/Agent/Copilot p
 
 &nbsp;
 
-I'm also guilty of this, having been part of ML, data and streaming platform teams in the last years.
+I'm also guilty of this, having been part of ML, data and streaming platform teams in the last years. But was counts as a platform?
 
 &nbsp;
 
@@ -70,12 +70,10 @@ So city planners and Deutsche Bahn went ahead and constructed a monumentally hug
 
 &nbsp;
 
-Unfortunately, since Mannheim, a much larger city, has it's railway station just 5 rail-minutes away, and since the new station was in the middle of nowhere, there wasn't much use for the station as it was built.  
-Even according to Ludwigshafen's 1984 mayor Werner Ludwig, the station is an eyesore.
+Unfortunately, since Mannheim, a much larger city, has it's railway station just 5 rail-minutes away, and since the new station was in the middle of nowhere, there wasn't much use for the station as it was built. Today only 3 out of the 12 platforms are used. So what can we learn for platform engineering?  
 
 &nbsp;
 
-So what can we learn for platform engineering?  
 Just because something is practical for infrastructure reasons, it might not be what people need. Another parallel is that rivalries between departments can lead to competing platforms (e.g. Ludwigshafen vs Mannheim) which then have to be expensively consolidated later.
 
 :::
@@ -96,15 +94,15 @@ Finding out who the product is targeting is one of the most important parts of b
 
 &nbsp;
 
-When shipping a full-stack application, we would never ignore the frondent, the same applies to platforms. The main frontend of your platform is your documenation: Find out how people use your platform and provide the documenatation which they need, alongside OpenAPI specs etc.
+Next, when shipping a full-stack application, we would never ignore the frontend and the same applies to platforms! The main frontend of your platform is your documenation: Find out how people use your platform and provide the documenatation which they need, alongside OpenAPI specs etc.
 
 &nbsp;
 
-The more your documentation is tailored to your users' needs, the more likely people will use it and keep it up to date.  
+The more your documentation is tailored to your users' needs, the more likely people will use it and keep it up to date. There's nothing sadder than unread documentation which was only written to tick a box in a ticket.
 
 &nbsp;
 
-Lastly, the better your connection to the developers using your platform, the better. Fostering a community of platform users through keeping in touch, clear communication of bugs and fixes, can help a great deal to prevent developer frustration. 
+Lastly, the better your connection to the developers using your platform, the better. Fostering a community of platform users through clear communication of bugs and fixes as well as regular exchanges can help a great deal to prevent developer frustration. 
 
 &nbsp;
 
