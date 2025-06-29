@@ -77,7 +77,7 @@ h4 {
 
 .gallery-published-date {
     font-size: 0.85em;
-    color: #888;
+    color: #666;
     margin-bottom: 0.5em;
 }
 
@@ -179,7 +179,7 @@ h4 {
 
 /* Subheading Styles for date in blogpost */
 .published-date-subheading {
-    color: #888;
+    color: #666;
     grid-column: 2;
 }
 
@@ -255,4 +255,9 @@ h4 {
     .paragraph:nth-child(even)>.text {
         grid-column: 3;
     }
+}
+
+html.dark-mode .published-date-subheading,
+html.dark-mode .gallery-published-date {
+    color: #999;
 }

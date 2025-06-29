@@ -18,6 +18,26 @@
 .logo {
     text-decoration: none;
     color: inherit;
+    border-bottom: 0.1em solid transparent;
+}
+
+.nav-links:hover {
+    border-bottom: 0.1em solid black;
+}
+
+/* Dark Mode Styles */
+html.dark-mode .nav-links,
+html.dark-mode .logo,
+html.dark-mode .dropdown > .nav-links,
+html.dark-mode #js-navbar-projects-toggle {
+    color: #fff;
+}
+
+html.dark-mode .nav-links:hover,
+html.dark-mode .logo:hover,
+html.dark-mode .dropdown > .nav-links:hover,
+html.dark-mode #js-navbar-projects-toggle:hover {
+    border-bottom: 0.1em solid #fff;
 }
 
 .navbar-toggle {
@@ -46,6 +66,13 @@
     }
     .main-nav li:last-child {
         order: -1;
+    }
+    #dark-mode-toggle {
+        border-bottom: none !important;
+    }
+    .logo {
+        margin-bottom: 2em;
+        display: block;
     }
 }
 
@@ -107,17 +134,4 @@
     .dropdown-content>li {
         padding-top: 1em;
     }
-}
-
-/* Dark Mode Styles */
-html.dark-mode .nav-links,
-html.dark-mode .dropdown > .nav-links,
-html.dark-mode #js-navbar-projects-toggle {
-    color: #fff;
-}
-
-html.dark-mode .nav-links:hover,
-html.dark-mode .dropdown > .nav-links:hover,
-html.dark-mode #js-navbar-projects-toggle:hover {
-    border-bottom: 0.1em solid #fff;
 }
