@@ -64,6 +64,10 @@ GitHub has been a front runner in this domain with [GitHub Codespaces](https://g
 
 &nbsp;
 
+This site, which uses the static site generator Hakyll written in Haskell, has been exclusively developed using GitHub Codespaces for years now! Not having to set up a development environment on whatever machine I'm using has been truly a blessing.
+
+&nbsp;
+
 To standardize these development container configurations, Microsoft has created an open specification at [Development containers](https://containers.dev/).
 
 :::
