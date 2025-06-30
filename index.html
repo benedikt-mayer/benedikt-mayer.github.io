@@ -68,11 +68,15 @@
             <ul class="dropdown-content" id="js-projects-menu">
                 
                 <li>
-                    <a class="nav-links" href="./android.html">android</a>
+                    <a class="nav-links" href="./platform-engineering.html">platform engineering</a>
                 </li>
                 
                 <li>
-                    <a class="nav-links" href="./devcontainers.html">devcontainers</a>
+                    <a class="nav-links" href="./dev-containers.html">dev containers</a>
+                </li>
+                
+                <li>
+                    <a class="nav-links" href="./android.html">android</a>
                 </li>
                 
                 <li>
@@ -80,7 +84,7 @@
                 </li>
                 
                 <li>
-                    <a class="nav-links" href="./thesis.html">thesis</a>
+                    <a class="nav-links" href="./bachelor-thesis.html">bachelor thesis</a>
                 </li>
                 
             </ul>
@@ -91,6 +95,29 @@
         <li>
             <a aria-label="link to my Github profile" class="nav-links" href="https://www.github.com/benedikt-mayer" target="_blank" rel="noreferrer">
                 <i aria-hidden="true" class="fab fa-github"></i> benedikt-mayer
+            </a>
+        </li>
+        <li>
+            <a class="nav-links" href="#" id="dark-mode-toggle" aria-label="Toggle dark mode" style="display: flex; align-items: center; gap: 0.3em;">
+                <span id="dark-mode-icon" aria-hidden="true">
+                    <!-- Moon (white) SVG for dark mode, Sun (black) SVG for light mode -->
+                    <svg id="icon-moon" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="white" style="display:inline;">
+                        <path d="M21 12.79A9 9 0 0111.21 3a1 1 0 00-1.09 1.32A7 7 0 1019.68 13.88a1 1 0 00-1.32-1.09A8.93 8.93 0 0121 12.79z"></path>
+                    </svg>
+                    <svg id="icon-sun" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="black" style="display:none;">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <g>
+                            <line x1="12" y1="1" x2="12" y2="3" stroke="black" stroke-width="2"></line>
+                            <line x1="12" y1="21" x2="12" y2="23" stroke="black" stroke-width="2"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="black" stroke-width="2"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="black" stroke-width="2"></line>
+                            <line x1="1" y1="12" x2="3" y2="12" stroke="black" stroke-width="2"></line>
+                            <line x1="21" y1="12" x2="23" y2="12" stroke="black" stroke-width="2"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="black" stroke-width="2"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="black" stroke-width="2"></line>
+                        </g>
+                    </svg>
+                </span>
             </a>
         </li>
         <hr class="nav-separator">
@@ -106,12 +133,15 @@
                 
             </h1>
     </div>
+    <div class="box subheading">
+        
+    </div>
     <div class="box content">
         <div class="gallery-header-wrapper">
 <section id="im-benedikt-a-machine-learning-engineer-based-in-munich." class="gallery-header">
 <h2>I’m Benedikt, a Machine Learning Engineer based in Munich.</h2>
 <p> </p>
-<h3 id="recent-projects">Recent Projects</h3>
+<h3 id="articles-and-projects">Articles and projects</h3>
 <p> </p>
 </section>
 </div>
@@ -120,30 +150,51 @@
     <div class="gallery-content">
         
         <div class="gallery-item">
-            <a href="./android.html">
-                <img alt="An Android app with two maps, one of the surrounding buildings and one of the selected building." src="./static/img/android_square.jpg" />
+            <a href="./platform-engineering.html">
+                <img alt="A picture of Ludwigshafen's main station in the fifties." src="./static/img/lu_hbf_4_3.jpg" />
                 <div class="gallery-text">
                     <h4>
-                        Campus Explorer
+                        Platform engineering
                     </h4>
-                    <br>
+                    <p class="gallery-published-date">
+                        29.06.2025
+                    </p>
                     <p>
-                        Which lectures and free rooms are around me? Location-aware systems to the rescue.
+                        What we can learn about building great platforms from UX and the city of Ludwigshafen.
                     </p>
                 </div>
             </a>
         </div>
         
         <div class="gallery-item">
-            <a href="./devcontainers.html">
+            <a href="./dev-containers.html">
                 <img alt="A picture of a shipping containers." src="./static/img/container_stock_4_3.jpg" />
                 <div class="gallery-text">
                     <h4>
-                        Dev Containers
+                        Dev containers
                     </h4>
-                    <br>
+                    <p class="gallery-published-date">
+                        10.01.2023
+                    </p>
                     <p>
-                        Introducing development containers to improve your technical onboarding.
+                        Introducing development containers to improve your technical onboarding. Also how I keep this site up to date!
+                    </p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="gallery-item">
+            <a href="./android.html">
+                <img alt="An Android app with two maps, one of the surrounding buildings and one of the selected building." src="./static/img/android_square.jpg" />
+                <div class="gallery-text">
+                    <h4>
+                        Campus explorer
+                    </h4>
+                    <p class="gallery-published-date">
+                        15.05.2019
+                    </p>
+                    <p>
+                        Which lectures and free rooms are around me? Location-aware systems to the rescue.
                     </p>
                 </div>
             </a>
@@ -156,7 +207,9 @@
                     <h4>
                         NFC Timeline Radio
                     </h4>
-                    <br>
+                    <p class="gallery-published-date">
+                        13.05.2019
+                    </p>
                     <p>
                         We built a modern NFC radio with retro looks for a project on media systems.
                     </p>
@@ -165,13 +218,15 @@
         </div>
         
         <div class="gallery-item">
-            <a href="./thesis.html">
+            <a href="./bachelor-thesis.html">
                 <img alt="A VR scene with two hands manipulating a distant cube." src="./static/img/thesis_squared.jpg" />
                 <div class="gallery-text">
                     <h4>
                         Interaction in VR
                     </h4>
-                    <br>
+                    <p class="gallery-published-date">
+                        07.05.2019
+                    </p>
                     <p>
                         In my bachelor thesis and a follow-up paper, I explored eye-tracking and gesture interaction in VR.
                     </p>
@@ -228,7 +283,7 @@
 
         <div class="grid-item">
             <p>
-                Copyright &copy; Benedikt Mayer 2022.
+                Copyright &copy; Benedikt Mayer 2025.
             </p>
         </div>
 

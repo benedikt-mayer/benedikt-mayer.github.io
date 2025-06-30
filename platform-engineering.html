@@ -40,7 +40,7 @@
     <meta property="og:url" content>
 
     <!-- Canonical -->
-    <link rel="canonical" href="./android.html">
+    <link rel="canonical" href="./platform-engineering.html">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     <!-- StyleSheet -->
@@ -129,72 +129,82 @@
     <div class="box heading">
             <h1>
                 
-                Campus explorer
+                Platform engineering
                 
             </h1>
     </div>
     <div class="box subheading">
         
-            <p class="published-date-subheading">15.05.2019</p>
+            <p class="published-date-subheading">29.06.2025</p>
         
     </div>
     <div class="box content">
         <div class="article">
 <div class="paragraph">
-<section id="which-lectures-and-free-rooms-are-nearby" class="text">
-<h2>Which lectures and free rooms are nearby?</h2>
+<section id="why-is-everyone-building-a-platform-now" class="text">
+<h2>Why is everyone building a platform now?</h2>
 <p> </p>
-<p>With this question in mind, we built a unique Android app, focussing on an easy and accessible way to get location aware information.</p>
+<p>Reading online, if you manage to make it through the mound of AI/Agent/Copilot posts, a lot of people are talking about building platforms.</p>
 <p> </p>
-<p>In the app, the user can search any buildings around them for running courses as well as free rooms.</p>
+<p>I’m also guilty of this, having been part of ML, data and streaming platform teams in the last years. But was counts as a platform?</p>
 <p> </p>
-<p>To get this information, we crawled the <a href="https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=user&amp;type=5&amp;language=en">course catalog</a> for all running courses and matched this information with the building data from the <a href="https://www.uni-muenchen.de/raumfinder/index.html#/">LMU Raumfinder app</a>.</p>
+<p>According to <a href="https://en.wikipedia.org/wiki/Platform_engineering">wikipedia</a>: „Platform engineering is a Software Engineering discipline focused on the development of self-service Toolchains, services, and processes to create an internal developer platform“.</p>
 <p> </p>
-<p>The frame for this project was a <a href="http://www.mobile.ifi.lmu.de/lehrveranstaltungen/msp-ws1819/">lab course on location aware apps</a> with the <a href="http://www.mobile.ifi.lmu.de/">chair of mobile and distributed systems</a>.</p>
+<p>So platforms are not some super concrete thing, they are usually just something you write to be used by other engineers at your to help them build their products.</p>
+<p> </p>
+<p>Often, the purpose is to reduce reduntant work, simplify operations due to more coordinated tech stacks and improve the developer experience.</p>
 </section>
 <div class="image">
-<p><img src="../static/img/android.jpg" alt="Two screens: image it shows a map with buildings marked by pins, right it shows a building plan with rooms marked by pins." /><br />
+<p><img src="../static/img/Rainbow-platforms.jpg" alt="An image of literal platform boots, with many rainbow layers, taken from wikipedia: https://commons.wikimedia.org/wiki/File:LU_Hbf_Februar_1958.jpg." /><br />
 </p>
 <div class="caption">
-<p>The explore and find stages.</p>
+<p>Another example of platform engineering, image taken from <a href="https://commons.wikimedia.org/wiki/File:Rainbow-platforms.jpg">wikipedia</a>.</p>
 </div>
 </div>
 </div>
 <div class="paragraph">
 <div class="image">
-<p><img src="../static/img/android_stack.jpg" alt="The icons for our tech stack: Spring, REST, mongoDB, Jaunt, Kotlin." /><br />
+<p><img src="../static/img/lu_hbf.jpg" alt="An image of Ludwigshafen’s main railway station from 1958, taken from wikipedia: https://commons.wikimedia.org/wiki/File:LU_Hbf_Februar_1958.jpg." /><br />
 </p>
 <div class="caption">
-<p>Our tech stack.</p>
+<p>An image of Ludwigshafen’s old railway station from 1958, taken from <a href="https://commons.wikimedia.org/wiki/File:LU_Hbf_Februar_1958.jpg">wikipedia</a>.</p>
 </div>
 </div>
-<section id="tech-stack" class="text">
-<h2>Tech stack</h2>
+<section id="lessons-from-ludwigshafens-main-railway-station" class="text">
+<h2>Lessons from Ludwigshafen’s main railway station</h2>
 <p> </p>
-<p>The project includes a backend written in <a href="https://spring.io/">Java Spring</a> and accesses a Mongo Database with the crawled data we gained via the crawling library <a href="https://jaunt-api.com/">Jaunt</a> from the course catalog.
-Frontend-wise, we used Kotlin for Android, connecting to the backend via a Rest API interface.</p>
+<p>Having grown up in Ludwigshafen am Rhein, I grew up having a huge, impressive, ugly and mostly deserted railway station at the edge of our medium-sized city.</p>
 <p> </p>
-<p>All of our code can be found on Github and is available under the MIT License: The backend on <a href="https://github.com/beneseifert/campusExplorerServer">campusExplorerServer</a> and the frontend on <a href="https://github.com/alexanderperzl/campusExplorerClient">campusExplorerClient</a>.</p>
+<p>It was built in 1969 to replace the existing station, which due to being a terminus, became impractical and outdated. Additionally, the rising city of Ludwigshafen wanted to have a representative station, part of it’s plan of a modern city called <a href="https://de.wikipedia.org/wiki/Projekt_Visitenkarte">Projekt Visitenkarte</a>.</p>
 <p> </p>
-<p>Using server-side filtering, the client only receives the data it needs and can then efficiently and locally apply their filtering, e.g. what type of courses and faculties they are interested in. Additionally, the app caches all room plans to save time when revisiting a building.</p>
+<p>So city planners and Deutsche Bahn went ahead and constructed a monumentally huge railway station with 12 platforms spread across three levels. For infrastructure reasons, as there were existing tracks and crossings at the desired location, the station was moved outside the city center.</p>
+<p> </p>
+<p>Unfortunately, since Mannheim, a much larger city, has it’s railway station just 5 rail-minutes away, and since the new station was in the middle of nowhere, there wasn’t much use for the station as it was built. Today only 3 out of the 12 platforms are used. So what can we learn for platform engineering?</p>
+<p> </p>
+<p>Just because something is practical for infrastructure reasons, it might not be what people need. Another parallel is that rivalries between departments can lead to competing platforms (e.g. Ludwigshafen vs Mannheim) which then have to be expensively consolidated later.</p>
 </section>
 </div>
 <div class="paragraph">
-<section id="app-workflow" class="text">
-<h2>App workflow</h2>
+<section id="a-look-from-the-user-experience-ux-perspective" class="text">
+<h2>A look from the user experience (UX) perspective</h2>
 <p> </p>
-<p>When the user first opens up the app, they are presented with a quick intro into the main features of the app: explore, find and filter.</p>
+<p>Just because a platform is built for engineers and internal, it doesn’t mean one should expect them to all think and work like the platform engineers: You are not the user.</p>
 <p> </p>
-<p>In the explore stage, the user can explore the area around them and find university buildings.
-After selecting one of the buildings, the user finds a floor plan on which they can find all the lectures or free rooms.</p>
+<p>Finding out who the product is targeting is one of the most important parts of building a product: Find them and talk to them. People from different backgrounds and different teams have vastly different views and needs for your platform: Ask for feedback and try to provide a great <a href="https://microsoft.github.io/code-with-engineering-playbook/developer-experience/">developer experience</a> for them.</p>
 <p> </p>
-<p>Here, they can filter the time by adjusting a slider and receive more information about a specific room by selecting the marker on the room plan.</p>
+<p>Next, when shipping a full-stack application, we would never ignore the frontend and the same applies to platforms! The main frontend of your platform is your documenation: Find out how people use your platform and provide the documenatation which they need, alongside OpenAPI specs etc.</p>
+<p> </p>
+<p>The more your documentation is tailored to your users’ needs, the more likely people will use it and keep it up to date. There’s nothing sadder than unread documentation which was only written to tick a box in a ticket.</p>
+<p> </p>
+<p>Lastly, the better your connection to the developers using your platform, the better. Fostering a community of platform users through clear communication of bugs and fixes as well as regular exchanges can help a great deal to prevent developer frustration.</p>
+<p> </p>
+<p>This also applies to positive updates: Celebrate your successes and talk about all your new features, which can increase acceptance and excitement for using the great platforms you will build.</p>
 </section>
 <div class="image">
-<p><img src="../static/img/android_intro.jpg" alt="Three intro screens describing the explore, find, filter model." /><br />
+<p><img src="../static/img/youwouldnt.jpg" alt="An image saying “you wouldn’t ship a horrible frontend” in the style of the early 2000s piracy PSA." /><br />
 </p>
 <div class="caption">
-<p>The intro: explore, find, filter.</p>
+<p>Documentation is your frontend, so don’t skimp on making it easy to use.</p>
 </div>
 </div>
 </div>
