@@ -31,7 +31,7 @@ I studied computer science (M.Sc.) at [LMU Munich](https://www.en.uni-muenchen.d
 
 &nbsp;
 
-I've also [co-written papers](https://scholar.google.de/citations?user=ZHmZq24AAAAJ&hl=en) about gaze- and gesture interaction in VR ([SUI 2017](https://dl.acm.org/citation.cfm?id=3132180), [IEEE VR 2019](http://ieeevr.org/2019/program/papers.html)) and worked at [Machine Learning Reply](https://www.reply.com/machine-learning-reply/de/), [Intel Mobile Communications](https://www.intel.com/content/www/us/en/wireless-network/5g-technology-overview.html), [Siemens AG](https://www.plm.automation.siemens.com/global/en/products/collaboration/mbse-model-based-systems-engineering.html), the [Usable Security and Privacy group of Bundeswehr University](https://www.unibw.de/usable-security-and-privacy/) and [LMU Munich](https://www.medien.ifi.lmu.de/).  
+I've also [co-written papers](https://scholar.google.de/citations?user=ZHmZq24AAAAJ&hl=en) about gaze- and gesture interaction in VR ([SUI 2017](https://dl.acm.org/citation.cfm?id=3132180), [IEEE VR 2019](http://ieeevr.org/2019/program/papers.html)) and worked at [Intel Mobile Communications](https://www.intel.com/content/www/us/en/wireless-network/5g-technology-overview.html), [Siemens AG](https://www.plm.automation.siemens.com/global/en/products/collaboration/mbse-model-based-systems-engineering.html), the [Usable Security and Privacy group of Bundeswehr University](https://www.unibw.de/usable-security-and-privacy/) and [LMU Munich](https://www.medien.ifi.lmu.de/).  
 
 &nbsp;
 
@@ -49,7 +49,7 @@ Feel free to contact me at
 
 :::
 ::: image
-![Portrait](../static/img/portrait.jpg){height="16em"} \
+![Portrait](../static/img/portrait.jpg){class="portrait"} \
 :::
 :::
 :::

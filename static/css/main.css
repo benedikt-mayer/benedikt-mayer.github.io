@@ -111,6 +111,11 @@ h4 {
     max-height: 20em;
 }
 
+.portrait {
+    max-height: none !important;
+    height: 30em;
+}
+
 .caption {
     font-size: 0.8em;
     display: flex;
