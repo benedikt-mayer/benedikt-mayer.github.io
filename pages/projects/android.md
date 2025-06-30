@@ -1,7 +1,7 @@
 ::: article
 ::: paragraph
 ::: text
-## Which Lectures and Free Rooms are nearby?
+## Which lectures and free rooms are nearby?
 
 &nbsp;
 
@@ -39,7 +39,7 @@ Our tech stack.
 :::
 
 ::: text
-## Tech Stack
+## Tech stack
 
 &nbsp;
 
@@ -60,7 +60,7 @@ Using server-side filtering, the client only receives the data it needs and can 
 ::: paragraph
 
 ::: text
-## App Workflow
+## App workflow
 
 &nbsp;
 

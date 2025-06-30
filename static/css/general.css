@@ -3,8 +3,6 @@
     margin: 0;
 }
 
-
-/* body */
 html,
 body {
     height: 100%;
@@ -12,13 +10,12 @@ body {
 
 body {
     display: grid;
-    /* grid-gap: 1em; */
     font-family: "Roboto", "Helvetica Neue", sans-serif;
     grid-template-rows: auto 1fr auto;
-    grid-template-areas: "nav""main""footer";
+    grid-template-areas: "nav" "main" "footer";
 }
 
-/* body - platform specific */
+/* Responsive body grid gap */
 @media screen and (max-width: calc(((759.9px + 10rem) / 0.7))) {
     body {
         grid-gap: 0;
@@ -27,11 +24,41 @@ body {
 
 /* email obfuscation */
 .crypted-mail:after {
-    content: attr(data-name) "@"attr(data-domain) "."attr(data-tld);
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
 }
 
-/* link color */
+/* Link color (inherits from parent, themed via variables) */
 a:link,
 a:visited {
     color: inherit;
+}
+
+/* Dark mode support - use .dark-mode class for all overrides */
+html.dark-mode body {
+    background-color: #181a1b;
+    color: #e0e0e0;
+}
+
+html.dark-mode a:link,
+html.dark-mode a:visited {
+    color: #fff;
+}
+
+html.dark-mode .gallery-item {
+    background: #23272a;
+    box-shadow: 0 0.3em 0.5em 0 rgba(0,0,0,0.7);
+}
+
+html.dark-mode .paragraph:nth-child(odd) {
+    background-color: #23272a;
+}
+
+html.dark-mode .modal {
+    background-color: rgba(20, 20, 20, 0.95);
+    color: #e0e0e0;
+}
+
+html.dark-mode .sourceCode {
+    background: #181a1b;
+    color: #e0e0e0;
 }

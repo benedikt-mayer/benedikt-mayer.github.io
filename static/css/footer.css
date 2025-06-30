@@ -30,9 +30,14 @@ footer>.wrapper>.grid-item>ul>li {
 
 footer>.wrapper>.grid-item>ul>li>a {
     text-decoration: none;
+    color: inherit;
 }
 
-/* platform specific */
+html.dark-mode footer {
+    background-color: #181c20;
+    color: #e0e0e0;
+}
+
 @media screen and (max-width: 1023px) {
     footer>.wrapper {
         grid-gap: 1em;

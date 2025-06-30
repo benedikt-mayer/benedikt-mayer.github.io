@@ -1,7 +1,7 @@
 ::: article
 ::: paragraph
 ::: text
-## New Features, Classic Design?
+## New features, classic design?
 
 &nbsp;
 
@@ -37,7 +37,7 @@ German radio receiver "Carmen" from Nordmende, image from [flickr](https://www.f
 :::
 
 ::: text
-## Classic Radio Elements
+## Classic radio elements
 
 &nbsp;
 
@@ -55,7 +55,7 @@ With e-ink displays, the device never distracts by being overly bright or unnatu
 
 ::: paragraph
 ::: text
-## Construction Process
+## Construction process
 
 &nbsp;
 
@@ -87,7 +87,7 @@ Laser cutting to cunstruct our wooden radio.
 :::
 
 ::: text
-## The Working Prototype
+## The working prototype
 
 &nbsp;
 
