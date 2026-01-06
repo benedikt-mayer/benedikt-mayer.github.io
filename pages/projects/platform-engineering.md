@@ -25,7 +25,7 @@ Often, the purpose is to reduce reduntant work, simplify operations due to more 
 
 :::
 ::: image
-![An image of literal platform boots, with many rainbow layers, taken from wikipedia: https://commons.wikimedia.org/wiki/File:LU_Hbf_Februar_1958.jpg.](../static/img/Rainbow-platforms.jpg)\
+![An image of literal platform boots, with many rainbow layers, taken from wikipedia: https://commons.wikimedia.org/wiki/File:Rainbow-platforms.jpg.](../static/img/Rainbow-platforms.jpg)\
 
 ::: caption
 Another example of platform engineering, image taken from [wikipedia](https://commons.wikimedia.org/wiki/File:Rainbow-platforms.jpg).
